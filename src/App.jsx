@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Hello from "./components/Hero"
 import MetricsSection from './components/MetricsSection';
 import About from './components/About';
+import Statement from './components/Statement';
 function App() {
 	return (
 		<div>
@@ -13,6 +14,7 @@ function App() {
 			<Hello />
 			<MetricsSection />
 			<About />
+			<Statement />
 		</div>
 	);
 }

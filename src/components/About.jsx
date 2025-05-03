@@ -18,7 +18,7 @@ const About = () => {
 					{/* bg-[#B0B0FD] */}
 					<div className="">
 						<img
-							className="w-96 h-64 rounded-lg"
+							className="w-96 h-64 rounded-lg shadow-[#00000059_0px_5px_15px]"
 							src={Image}
 							alt="Three workers wearing safety gear cleaning the inside of a large industrial tank using brushes and a vacuum-like machine"
 							loading="lazy"
@@ -44,7 +44,7 @@ const About = () => {
 					</p>
 					<div>
 						<img
-							className="w-96 h-64 rounded-lg"
+							className="w-96 h-64 rounded-lg shadow-[#00000059_0px_5px_15px]"
 							src={Image2}
 							alt="Workers in high-visibility orange safety suits pressure washing a large asphalt surface in an industrial setting"
 							loading="lazy"
@@ -54,7 +54,7 @@ const About = () => {
 				<div className="grid grid-cols-2 mb-16">
 					<div>
 						<img
-							className="w-96 h-64 rounded-lg"
+							className="w-96 h-64 rounded-lg shadow-[#00000059_0px_5px_15px]"
 							src={Image4}
 							alt=""
 							loading="lazy"
@@ -69,8 +69,9 @@ const About = () => {
 				</div>
 			</div>
 
-			<div className="border-2 border-black pt-3">
-				<p className="m-auto w-[920px] min-w-64 text-lg text-justify">
+			{/* border-2 border-black */}
+			<div className=" pt-3">
+				<p className="m-auto w-[920px] min-w-64 text-base text-justify">
 					Phibest Global Services Limited provides services in the field of
 					Civil and Fabrication Engineering, Bitumen cleaning and oil-based
 					mud (OBM), Waste management, maintenance, welding, blasting and
