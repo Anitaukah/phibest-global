@@ -5,7 +5,7 @@ import React from "react";
 const MetricsSection = () => {
 	return (
 		<div className="bg-[#0000FA] my-12">
-			<div className="m-auto w-[1200px] flex justify-between text-white">
+			<div className="m-auto w-[920px] flex justify-between text-white">
 				<div className="text-center my-8 ">
 					<p className="font-semibold text-lg py-2">98.9%</p>
 					<p className="text-lg">Customer Satisfaction</p>
