@@ -13,12 +13,12 @@ import Image5 from "../assets/Images/image-5.png";
 const About = () => {
 	return (
 		<div>
-			<div className="m-auto w-[920px] min-w-64">
-				<div className="grid grid-cols-2 pb-16">
+			<div className="m-auto w-[920px] min-w-64" id="About ">
+				<div className="grid grid-cols-2 pb-16 gap-[150px] ">
 					{/* bg-[#B0B0FD] */}
-					<div className="">
+					<div className=" bg-[#B0B0FD] w-96 h-64 rounded-lg mt-4 ">
 						<img
-							className="w-96 h-64 rounded-lg shadow-[#00000059_0px_5px_15px]"
+							className="w-96 h-64 rounded-lg ml-[2rem] mt-[2rem] "
 							src={Image}
 							alt="Three workers wearing safety gear cleaning the inside of a large industrial tank using brushes and a vacuum-like machine"
 							loading="lazy"
@@ -26,7 +26,11 @@ const About = () => {
 					</div>
 
 					<div>
-						<h1 className="text-4xl font-bold pb-4">About Us</h1>
+						<div className="flex items-center justify-center gap-4">
+							<div className="w-10 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
+							<h1 className="pb-4 font-bold text-4xl">About Us</h1>
+							<div className="w-10 h-2 bg-[#0000FA] rounded-tr-lg rounded-br-lg"></div>
+						</div>
 						<p className="text-base ">
 							Phibest Global Services Limited is a company based in
 							Nigeria providing services in Nigeria to oil and oil
@@ -35,32 +39,32 @@ const About = () => {
 						</p>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 pb-16">
+				<div className="grid grid-cols-2 gap-[150px] pb-16 items-center ">
 					<p>
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of
 						storage tanks and maintenace.
 					</p>
-					<div>
+					<div className=" bg-[#F9B9BB] w-96 h-64 rounded-lg ">
 						<img
-							className="w-96 h-64 rounded-lg shadow-[#00000059_0px_5px_15px]"
+							className="w-96 h-64 rounded-lg ml-[-2rem] mt-[2rem]"
 							src={Image2}
 							alt="Workers in high-visibility orange safety suits pressure washing a large asphalt surface in an industrial setting"
 							loading="lazy"
 						/>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 mb-16">
-					<div>
+				<div className="grid grid-cols-2 mb-16 gap-[150px] items-center">
+					<div className="w-96 h-64 bg-[#B0B0FD]  rounded-lg">
 						<img
-							className="w-96 h-64 rounded-lg shadow-[#00000059_0px_5px_15px]"
+							className="w-96 h-64 rounded-lg ml-[2rem] mt-[2rem]"
 							src={Image4}
 							alt=""
 							loading="lazy"
 						/>
 					</div>
-					<p>
+					<p class>
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of
