@@ -6,7 +6,9 @@
 export default {
 	content: ["./index.html", "./src/**/*.{js,jsx}"],
 	theme: {
-		extend: {},
+		extend: {
+			backgroundImage: { Image8: "url ('../assets/Images/image-8.png')" },
+		},
 	},
 	plugins: [],
 };

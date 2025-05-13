@@ -51,7 +51,7 @@ const Footer = () => {
 									<a href="#Policy">Policy</a>
 								</li>
 								<li className="pb-1 hover:underline">
-									<a href="#Services">Services</a>
+									<a href="/service">Services</a>
 								</li>
 							</ul>
 						</div>
