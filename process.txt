@@ -1,0 +1,10 @@
+the process to complete this website
+
+-create the home page
+-create the service page --tuesday
+-create the mobile version of the home page --wednesday
+-create the mobile version of the service page --thursday
+-add the icons in home page --friday
+-create the sidebar for the home page for navigations --friday
+-add the animations to the header section --saturday
+-add animate on scroll then wrap up --sunday

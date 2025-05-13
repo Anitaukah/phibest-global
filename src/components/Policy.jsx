@@ -9,7 +9,7 @@ const Policy = () => {
 				<div className="flex items-center justify-between">
 					<div className="w-32 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
 					<h1 className="text-center mt-5 pb-6 font-bold text-4xl">
-						HSE Policy Statement
+						HSE Policy Statement Hell
 					</h1>
 					<div className="w-32 h-2 bg-[#0000FA] rounded-tr-lg rounded-br-lg"></div>
 				</div>

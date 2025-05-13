@@ -4,9 +4,8 @@ import React from "react";
 import Navheader from "./components/Navheader";
 import Navbar from "./components/Navbar";
 import HeroServices from "./components/HeroServices";
-import HeroIntroService from "./components/HeroIntroService";
-import WhatWeDo from "./components/WhatWeDo";
-import HerIntro2 from "./components/HerIntro2";
+import WhyChooseUs from "./components/WhyChooseUs";
+import RatingServices from "./components/RatingServices";
 
 const Service_page = () => {
 	return (
@@ -14,9 +13,8 @@ const Service_page = () => {
 			<Navheader />
 			<Navbar />
 			<HeroServices />
-			<HeroIntroService />
-			<HerIntro2 />
-			<WhatWeDo />
+			<RatingServices />
+			<WhyChooseUs />
 		</div>
 	);
 };
