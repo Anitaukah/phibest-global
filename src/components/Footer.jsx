@@ -1,6 +1,9 @@
 /** @format */
 
 import React from "react";
+import Envelop from "../assets/Images/ic_baseline-email.png";
+import Location from "../assets/Images/gridicons_location.png";
+import Phone from "../assets/Images/material-symbols_call.png";
 
 const Footer = () => {
 	return (
@@ -41,7 +44,7 @@ const Footer = () => {
 					<div className="flex gap-10">
 						<div className="grid">
 							<ul>
-                            <li className="pb-1 hover:underline">
+								<li className="pb-1 hover:underline">
 									<a href="#Home">Home</a>
 								</li>
 								<li className="pb-1 hover:underline">
@@ -57,12 +60,33 @@ const Footer = () => {
 						</div>
 						<div>
 							<ul>
-								<li className="pb-1">
+								<li className="flex items-center gap-2 mb-2">
+									<span>
+										<img
+											className="w-5 h-5"
+											src={Location}
+											alt="message icon"
+										/>
+									</span>
 									KM.3 Harbour Road Davo Plaza, By Njinna Hotel
 								</li>
-								<li className="pb-1">+234 (0) 803 677 6697</li>
-								<li className="pb-1 hover:underline">
-									<a href="/">phibest@info.gmail.com</a>
+								<li className=" flex items-center gap-2 mb-2">
+									<img
+										className="w-5 h-5"
+										src={Phone}
+										alt="message icon"
+									/>
+									+234 (0) 803 677 6697
+								</li>
+								<li className="hover:underline flex items-center gap-2">
+									<img
+										className="w-5 h-5"
+										src={Envelop}
+										alt="message icon"
+									/>
+									<a href="mailto:phizek4life@gmail.com">
+										phizek4life@gmail.com
+									</a>{" "}
 								</li>
 							</ul>
 						</div>

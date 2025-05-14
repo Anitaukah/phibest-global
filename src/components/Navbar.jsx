@@ -6,7 +6,7 @@ import Hamburger from "../assets/Images/bars-solid.svg";
 
 const Navbar = () => {
 	return (
-		<nav className="bg-white  " id="Home ">
+		<nav className="bg-white relative " id="Home ">
 			{/* w-full max-w-5xl mx-auto  */}
 			{/* w-[920px] min-w-80 md:m-auto */}
 			<div className="flex justify-between items-center  w-full max-w-5xl mx-auto  ">
@@ -16,7 +16,7 @@ const Navbar = () => {
 					alt="Phibest global company logo"
 				/>
 				<div className="text-[18px] hidden md:block">
-					<ul className ="flex">
+					<ul className="flex">
 						<li className="hover:border-black hover:border-3">
 							<a href="/">Home</a>
 						</li>

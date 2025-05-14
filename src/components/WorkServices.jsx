@@ -18,7 +18,7 @@ import Image49 from "../assets/Images/image (49).png";
 const WorkServices = () => {
 	return (
 		<div className="m-auto w-[960px] min-w-64 mt-24 ">
-			<h1 className="text-2xl mb-4 font-normal ">
+			<h1 className="text-2xl mb-4 font-medium text-[#0000FA] ">
 				Our Services include
 			</h1>
 			<div className="my-8" id="bitumen&oil">
@@ -33,7 +33,7 @@ const WorkServices = () => {
 				</p>
 				<div className="flex gap-8 ">
 					<div className="relative">
-						<img className="h-52 w-72" src={Image44} alt=""/>
+						<img className="h-52 w-72" src={Image44} alt="" />
 						<p className="bg-[#0000FA] text-center py-3 text-white absolute  bottom-[0rem] w-full">
 							Thermal Cleaning
 						</p>

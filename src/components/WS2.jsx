@@ -6,7 +6,7 @@ import Image57 from "../assets/Images/image (57).png";
 const WS2 = () => {
 	return (
 		<div>
-			<section className="relative overflow-hidden text-white bg-black/35 my-12">
+			<section className="relative overflow-hidden text-white bg-black/65 my-12">
 				<img
 					src={Image57}
 					alt="bg"
