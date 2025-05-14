@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import HeroServices from "./components/HeroServices";
 import WhyChooseUs from "./components/WhyChooseUs";
 import RatingServices from "./components/RatingServices";
+import WorkServices from "./components/WorkServices";
 
 const Service_page = () => {
 	return (
@@ -15,6 +16,7 @@ const Service_page = () => {
 			<HeroServices />
 			<RatingServices />
 			<WhyChooseUs />
+			<WorkServices />
 		</div>
 	);
 };
