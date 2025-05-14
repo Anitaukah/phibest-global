@@ -10,7 +10,7 @@ const WhyChooseUs = () => {
 				<div className="relative">
 					<img src={Image42} alt="img 42" />
 					<div className="absolute bottom-0 -right-[42px]">
-						<img className="h-32"  src={Image43} alt="" />
+						<img className="h-32" src={Image43} alt="" />
 					</div>
 				</div>
 				<div className="mt-8">
