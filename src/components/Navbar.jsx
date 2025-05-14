@@ -22,7 +22,7 @@ const Navbar = () => {
 					<a href="#Policy" className="ml-20">
 						Policy
 					</a>
-					<a href="/service" target="_blank" className="ml-20">
+					<a href="/Service" target="_blank" className="ml-20">
 						Services
 					</a>
 				</div>
