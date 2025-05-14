@@ -5,7 +5,9 @@ import React from "react";
 const Navheader = () => {
 	return (
 		<div className="bg-[#0000FA] hidden md:block">
-			<div className="md:m-auto md:w-[920px] min-w-64 border border-black">
+			{/* w-full max-w-5xl mx-auto */}
+			{/* md:m-auto md:w-[920px] min-w-64  */}
+			<div className="w-full max-w-5xl mx-auto border border-black">
 				<ul className="flex justify-between text-white py-4 text-sm">
 					<li>+234 (0) 803 677 6697</li>
 					<li className="hover:underline">

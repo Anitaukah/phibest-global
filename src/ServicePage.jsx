@@ -10,6 +10,7 @@ import WorkServices from "./components/WorkServices";
 import WS1 from "./components/WS1";
 import WS2 from "./components/WS2";
 import WS3 from "./components/WS3";
+import FooterServices from "./components/FooterServices";
 
 const Service_page = () => {
 	return (
@@ -23,6 +24,7 @@ const Service_page = () => {
 			<WS1 />
 			<WS2 />
 			<WS3 />
+			<FooterServices />
 		</div>
 	);
 };

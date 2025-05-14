@@ -7,9 +7,9 @@ import Image48 from "../assets/Images/image (48).png";
 
 const WS1 = () => {
 	return (
-		<div class>
-			<div className="my-8">
-				<h1 className="text-center text-2xl font-normal mb-5 ">
+		<div className="bg-[#FDE9E9] py-12">
+			<div className="w-full max-w-5xl mx-auto " id="pipe&anode">
+				<h1 className="text-center text-2xl font-medium mb-5 ">
 					Pipeline and Anode Fabrication
 				</h1>
 				<p className="text-base text-justify mb-5">

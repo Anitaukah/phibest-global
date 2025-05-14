@@ -4,7 +4,7 @@ import React from "react";
 
 const Policy = () => {
 	return (
-		<div className="m-auto w-[960px] min-w-64">
+		<div className="w-full max-w-5xl mx-auto">
 			<section className="my-8" id="Policy">
 				<div className="flex items-center justify-between">
 					<div className="w-32 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>

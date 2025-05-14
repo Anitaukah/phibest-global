@@ -5,13 +5,14 @@ import Image6 from "../assets/Images/image-6.png";
 
 const WS3 = () => {
 	return (
-		<div className="m-auto w-[960px] min-w-64 mb-12 ">
-			<div className="my-8">
-				<h1 className="text-center text-2xl font-normal mb-5">
+		<div className="w-full max-w-5xl mx-auto mb-12 ">
+			<div className="my-8" id="clear&forward">
+				
+				<h1 className="text-center text-2xl font-medium mb-5 ">
 					Clearing and Forwarding
 				</h1>
 				<p className="text-base text-justify mb-5">
-					PHIBEST GLOBAL SERVICES LIMITED, have team of expert who
+					Phibest Global Services Limited have team of experts who
 					specialize in clearing and forwarding of goods and services from
 					service vessel, ship and airplane from different terminal across
 					the nation with worth of experience.

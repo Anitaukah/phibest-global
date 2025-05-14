@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
 	return (
 		<div className="bg-[#272626] text-white p-8 mt-7">
-			<div className="m-auto w-[960px] min-w-64 ">
+			<div className="w-full max-w-5xl mx-auto  ">
 				<h1 className="text-sm">
 					Phibest Global Services Policies Includes;
 				</h1>

@@ -5,7 +5,7 @@ import Image42 from "../assets/Images/image (42).png";
 import Image43 from "../assets/Images/image (43).png";
 const WhyChooseUs = () => {
 	return (
-		<div className="m-auto w-[960px] min-w-64 mb-12">
+		<div className="w-full max-w-5xl mx-auto">
 			<div className=" flex justify-center gap-10 relative">
 				<div className="relative">
 					<img src={Image42} alt="img 42" />

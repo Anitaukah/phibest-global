@@ -16,12 +16,12 @@ import Image54 from "../assets/Images/image (54).png";
 
 const WorkServices = () => {
 	return (
-		<div className="m-auto w-[960px] min-w-64 mb-12 ">
-			<h1 className="text-xl mb-4 font-semibold ">
-				Other Services includes
+		<div className="m-auto w-[960px] min-w-64 mt-24 ">
+			<h1 className="text-2xl mb-4 font-normal ">
+				Our Services include
 			</h1>
-			<div className="my-8">
-				<h1 className="text-center text-2xl font-normal mb-5">
+			<div className="my-8" id="bitumen&oil">
+				<h1 className="text-center text-2xl font-medium mb-5">
 					Bitumen Cleaning and Oil Based Mud
 				</h1>
 				<p className="text-base text-justify mb-5">
@@ -30,27 +30,35 @@ const WorkServices = () => {
 					sticky substance making cleaning challenging but here at Phibest
 					Global services we help you take care of bitumen.
 				</p>
-				<div className="flex gap-8 border border-black">
+				<div className="flex gap-8 ">
 					<div className="relative">
-						<img className="h-52 w-72 " src={Image44} alt="" />
-						<p className="bg-[#0000FA] text-center py-3 text-white absolute bottom-1 w-full">
+						<img className="h-52 w-72" src={Image44} alt=""/>
+						<p className="bg-[#0000FA] text-center py-3 text-white absolute  bottom-[0rem] w-full">
 							Thermal Cleaning
 						</p>
 					</div>
 					<div>
-						<img className="h-[204px] w-72 " src={IMG1} alt="" />
+						<img
+							className="h-[200px] w-72 rounded-t-lg"
+							src={IMG1}
+							alt=""
+						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white">
 							Thermal Cleaning
 						</p>
 					</div>
 					<div>
-						<img className="h-[204px] w-72 " src={Image45} alt="" />
+						<img
+							className="h-[200px] w-72 rounded-t-lg"
+							src={Image45}
+							alt=""
+						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white">
 							Chemical Cleaning
 						</p>
 					</div>
 					<div>
-						<img className="h-[204px] w-72 " src={Image41} alt="" />
+						<img className="h-[200px] w-72 " src={Image41} alt="" />
 						<p className="bg-[#0000FA] text-center py-3 text-white">
 							Mechanical Cleaning
 						</p>
@@ -58,8 +66,8 @@ const WorkServices = () => {
 				</div>
 			</div>
 
-			<div className="my-8">
-				<h1 className="text-center text-2xl font-normal mb-5">
+			<div className="my-24" id="vessel&tank">
+				<h1 className="text-center text-2xl font-medium mb-5">
 					Vessel and Storage Tank Cleaning
 				</h1>
 				<p className="text-base text-justify mb-5">
@@ -83,8 +91,8 @@ const WorkServices = () => {
 				</div>
 			</div>
 
-			<div className="my-8">
-				<h1 className="text-center text-2xl font-normal mb-5">
+			<div className="my-24" id="barite&slug">
+				<h1 className="text-center text-2xl font-medium mb-5">
 					Barite and Bentonite Slug
 				</h1>
 				<p className="text-base text-justify mb-5">
