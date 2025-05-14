@@ -1,6 +1,9 @@
 /** @format */
 
 import React from "react";
+import Vector from "../assets/Images/Vector.png";
+import Vector1 from "../assets/Images/Vector(1).png";
+import Vector2 from "../assets/Images/Vector(2).png";
 
 const Policy = () => {
 	return (
@@ -9,7 +12,7 @@ const Policy = () => {
 				<div className="flex items-center justify-between">
 					<div className="w-32 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
 					<h1 className="text-center mt-5 pb-6 font-bold text-4xl">
-						HSE Policy Statement Hell
+						HSE Policy Statement
 					</h1>
 					<div className="w-32 h-2 bg-[#0000FA] rounded-tr-lg rounded-br-lg"></div>
 				</div>
@@ -21,8 +24,12 @@ const Policy = () => {
 				</p>
 				<div className="grid grid-cols-3 gap-8 mt-6">
 					<div className="bg-[#272626] text-white rounded-lg ">
-						<div></div>
-						<h2 className="mx-5 my-4 text-center font-bold text-xl">Health Policy</h2>
+						<div className="flex justify-center mt-4">
+							<img className="w-9 h-10" src={Vector} alt="" />
+						</div>
+						<h2 className="mx-5 my-4 text-center font-bold text-xl">
+							Health Policy
+						</h2>
 
 						<div className="">
 							<ul className="list-disc mx-9">
@@ -43,7 +50,12 @@ const Policy = () => {
 						</div>
 					</div>
 					<div className="bg-[#272626] text-white rounded-lg ">
-						<h2 className="mx-5 my-4 text-center font-bold text-xl">Environmental Policy</h2>
+						<div className="flex justify-center mt-4">
+							<img className="w-9 h-10" src={Vector1} alt="" />
+						</div>
+						<h2 className="mx-5 my-4 text-center font-bold text-xl">
+							Environmental Policy
+						</h2>
 						<div className="">
 							<ul className="list-disc mx-9 mb-8">
 								<li>
@@ -66,7 +78,12 @@ const Policy = () => {
 						</div>
 					</div>
 					<div className="bg-[#272626] text-white rounded-lg">
-						<h2 className="mx-5 my-4 text-center font-bold text-xl">Safety Policy</h2>
+						<div className="flex justify-center mt-4">
+							<img className="w-9 h-10" src={Vector2} alt="" />
+						</div>
+						<h2 className="mx-5 my-4 text-center font-bold text-xl">
+							Safety Policy
+						</h2>
 						<div className="">
 							<ul className="list-disc mx-9">
 								<li>

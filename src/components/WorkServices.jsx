@@ -13,6 +13,7 @@ import Image52 from "../assets/Images/image (52).png";
 import Image53 from "../assets/Images/image (53).png";
 import Image55 from "../assets/Images/image (55).png";
 import Image54 from "../assets/Images/image (54).png";
+import Image49 from "../assets/Images/image (49).png";
 
 const WorkServices = () => {
 	return (
@@ -102,6 +103,9 @@ const WorkServices = () => {
 				</p>
 				<div className="flex gap-8">
 					<div>
+						<img className="h-52 w-72 rounded-lg" src={Image49} alt="" />
+					</div>
+					<div>
 						<img className="h-52 w-72 rounded-lg" src={Image52} alt="" />
 					</div>
 					<div>
@@ -109,9 +113,6 @@ const WorkServices = () => {
 					</div>
 					<div>
 						<img className="h-52 w-72 rounded-lg" src={Image55} alt="" />
-					</div>
-					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image54} alt="" />
 					</div>
 				</div>
 			</div>

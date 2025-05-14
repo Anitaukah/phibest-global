@@ -16,17 +16,26 @@ const Navbar = () => {
 					alt="Phibest global company logo"
 				/>
 				<div className="text-[18px] hidden md:block">
-					<a href="/">Home</a>
-					<a href="#About" className="ml-20">
-						About
-					</a>
-
-					<a href="#Policy" className="ml-20">
-						Policy
-					</a>
-					<a href="/Service" target="_blank" className="ml-20">
-						Services
-					</a>
+					<ul className ="flex">
+						<li className="hover:border-black hover:border-3">
+							<a href="/">Home</a>
+						</li>
+						<li>
+							<a href="#About" className="ml-20">
+								About
+							</a>
+						</li>
+						<li>
+							<a href="#Policy" className="ml-20">
+								Policy
+							</a>
+						</li>
+						<li>
+							<a href="/Service" target="_blank" className="ml-20">
+								Services
+							</a>
+						</li>
+					</ul>
 				</div>
 				<div className="md:hidden">
 					<img className="w-32 h-16" src={Hamburger} alt="Menu icon" />

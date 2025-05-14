@@ -1,13 +1,15 @@
 /** @format */
 
 import React from "react";
-import Image6 from "../assets/Images/image-6.png";
+import Work1 from "../assets/Images/work1.png";
+import Work2 from "../assets/Images/work2.png";
+import Work3 from "../assets/Images/work3.png";
+import Work4 from "../assets/Images/work4.png";
 
 const WS3 = () => {
 	return (
 		<div className="w-full max-w-5xl mx-auto mb-12 ">
 			<div className="my-8" id="clear&forward">
-				
 				<h1 className="text-center text-2xl font-medium mb-5 ">
 					Clearing and Forwarding
 				</h1>
@@ -19,16 +21,16 @@ const WS3 = () => {
 				</p>
 				<div className="flex gap-8">
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image6} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Work1} alt="" />
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image6} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Work2} alt="" />
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image6} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Work3} alt="" />
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image6} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Work4} alt="" />
 					</div>
 				</div>
 			</div>

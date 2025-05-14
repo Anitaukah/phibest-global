@@ -11,7 +11,7 @@ import Image11 from "../assets/Images/image 11.png";
 const Services = () => {
 	return (
 		<div className="w-full max-w-5xl mx-auto" id="Services">
-			// m-auto w-[960px] min-w-64
+			{/* m-auto w-[960px] min-w-64 */}
 			<div>
 				<h2 className="text-center mb-8 text-[#0000FA] font-bold text-4xl">
 					Services
@@ -49,36 +49,30 @@ const Services = () => {
 					Fabrication Optimum Maintenance services
 				</h2>
 
-				<div className="grid grid-cols-3">
-					<div className="">
+				<div className="flex gap-14 ">
+					<div className="shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
 						<img
-							className="h-52 w-72 rounded-lg shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]"
+							className="h-52 w-72 rounded-t-lg"
 							src={Image12}
 							alt=""
 						/>
-						<p className="bg-[#0000FA] text-center py-3 text-white">
+						<p className="bg-[#0000FA] text-center py-3 text-white text-sm">
 							Visit and check by Professional Team
 						</p>
 					</div>
-
-					<div className="">
+					<div className="shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
 						<img
-							className="h-52 w-72 rounded-lg shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]"
+							className="h-52 w-72 rounded-t-lg"
 							src={Image10}
 							alt=""
 						/>
-						<p className="bg-[#0000FA] text-center py-3 text-white">
-							Prose an Optimum Maintenance Plan
+						<p className="bg-[#0000FA] text-center py-3 text-white text-sm">
+							Propose an Optimum Maintenance Plan
 						</p>
 					</div>
-
-					<div className="">
-						<img
-							className="h-52 w-72 rounded-lg shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]"
-							src={Image11}
-							alt=""
-						/>
-						<p className="bg-[#0000FA] text-center text-white">
+					<div className="shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
+						<img className="h-52 w-72 " src={Image11} alt="" />
+						<p className="bg-[#0000FA] text-center py-3 text-white text-sm">
 							Maintenance
 						</p>
 					</div>

@@ -1,7 +1,7 @@
 the process to complete this website
 
--create the home page
--create the service page --tuesday
+-create the home page--done
+-create the service page --tuesday--done
 -create the mobile version of the home page --wednesday
 -create the mobile version of the service page --thursday
 -add the icons in home page --friday
