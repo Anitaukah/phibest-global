@@ -14,18 +14,18 @@ const About = () => {
 	return (
 		<div>
 			<div className="m-auto w-[920px] min-w-64" id="About ">
-				<div className="grid grid-cols-2 pb-16 gap-[150px] ">
+				<div className="grid grid-cols-2 pb-16 gap-[150px] sm:grid-cols-none sm:gap-0  ">
 					{/* bg-[#B0B0FD] */}
-					<div className=" bg-[#B0B0FD] w-96 h-64 rounded-lg mt-4 ">
+					<div className=" bg-[#B0B0FD] w-96 h-64 sm:w-64 sm:h-32 rounded-lg mt-4 ">
 						<img
-							className="w-96 h-64 rounded-lg ml-[2rem] mt-[2rem] "
+							className="w-96 h-64 sm:w-64 sm:h-32 rounded-lg ml-[2rem] mt-[2rem] "
 							src={Image}
 							alt="Three workers wearing safety gear cleaning the inside of a large industrial tank using brushes and a vacuum-like machine"
 							loading="lazy"
 						/>
 					</div>
 
-					<div>
+					<div className="order-last sm:order-first sm:w-[40%]">
 						<div className="flex items-center justify-center gap-4">
 							<div className="w-10 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
 							<h1 className="pb-4 font-bold text-4xl">About Us</h1>
@@ -39,16 +39,16 @@ const About = () => {
 						</p>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 gap-[150px] pb-16 items-center ">
+				<div className="grid grid-cols-2 sm:block gap-[150px] pb-16 items-center ">
 					<p>
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of
 						storage tanks and maintenace.
 					</p>
-					<div className=" bg-[#F9B9BB] w-96 h-64 rounded-lg ">
+					<div className=" bg-[#F9B9BB] w-96 h-64 sm:w-64 sm:h-32 rounded-lg ">
 						<img
-							className="w-96 h-64 rounded-lg ml-[-2rem] mt-[2rem]"
+							className="w-96 h-64 sm:w-64 sm:h-32 rounded-lg ml-[-2rem] mt-[2rem]"
 							src={Image2}
 							alt="Workers in high-visibility orange safety suits pressure washing a large asphalt surface in an industrial setting"
 							loading="lazy"
@@ -56,9 +56,9 @@ const About = () => {
 					</div>
 				</div>
 				<div className="grid grid-cols-2 mb-16 gap-[150px] items-center">
-					<div className="w-96 h-64 bg-[#B0B0FD]  rounded-lg">
+					<div className="w-96 h-64 sm:w-64 sm:h-32  bg-[#B0B0FD]  rounded-lg">
 						<img
-							className="w-96 h-64 rounded-lg ml-[2rem] mt-[2rem]"
+							className="w-96 h-64 sm:w-64 sm:h-32 rounded-lg ml-[2rem] mt-[2rem]"
 							src={Image4}
 							alt=""
 							loading="lazy"

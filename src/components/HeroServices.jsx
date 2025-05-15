@@ -13,11 +13,11 @@ const HeroServices = () => {
 						className="absolute top-0 left-0 w-full h-full object-cover -z-10"
 					/>
 					<div className="h-[80vh] flex flex-col justify-center items-center gap-10 text-center w-full max-w-6xl mx-auto">
-						<p className="text-3xl text-white">
+						<p className="text-3xl text-white animate__animated animate__fadeInDown">
 							Reliable Industrial Cleaning & Maintenance Services
 						</p>
 
-						<p className="text-2xl text-white text-center">
+						<p className="text-2xl text-white text-center animate__animated animate__fadeInDown">
 							We specialize in safe, efficient, and professional services
 							including tank maintenance, Bitumen cleaning, and waste
 							management, tailored to meet the needs of the oil, gas, and

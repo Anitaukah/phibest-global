@@ -8,7 +8,7 @@ const WhyChooseUs = () => {
 		<div className="w-full max-w-5xl mx-auto">
 			<div className=" flex justify-center gap-10 relative">
 				<div className="relative">
-					<img src={Image42} alt="img 42" />
+					<img className=" w-[800px] h-80" src={Image42} alt="img 42" />
 					<div className="absolute bottom-0 -right-[42px]">
 						<img className="h-32" src={Image43} alt="" />
 					</div>

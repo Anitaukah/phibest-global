@@ -9,36 +9,51 @@ const Navbar = () => {
 		<nav className="bg-white relative " id="Home ">
 			{/* w-full max-w-5xl mx-auto  */}
 			{/* w-[920px] min-w-80 md:m-auto */}
-			<div className="flex justify-between items-center  w-full max-w-5xl mx-auto  ">
+			<div className="flex justify-between items-center w-full max-w-5xl mx-auto sm:max-w-[1040px] ">
 				<img
-					className="md:w-28 md:h-20"
+					className="w-28 h-20 sm:w-28 sm:h-16"
 					src={Logo}
 					alt="Phibest global company logo"
 				/>
-				<div className="text-[18px] hidden md:block">
+				<div className="text-[18px] sm:hidden">
 					<ul className="flex">
-						<li className="hover:border-black hover:border-3">
-							<a href="/">Home</a>
+						<li>
+							<a
+								href="/"
+								className="hover:text-[#EB1E23] hover:font-medium"
+							>
+								Home
+							</a>
 						</li>
 						<li>
-							<a href="#About" className="ml-20">
+							<a
+								href="#About"
+								className="ml-20 hover:text-[#EB1E23] hover:font-medium"
+							>
 								About
 							</a>
 						</li>
 						<li>
-							<a href="#Policy" className="ml-20">
+							<a
+								href="#Policy"
+								className="ml-20 hover:text-[#EB1E23] hover:font-medium"
+							>
 								Policy
 							</a>
 						</li>
 						<li>
-							<a href="/Service" target="_blank" className="ml-20">
+							<a
+								href="/Service"
+								target="_blank"
+								className="ml-20 hover:text-[#EB1E23] hover:font-medium active:underline"
+							>
 								Services
 							</a>
 						</li>
 					</ul>
 				</div>
-				<div className="md:hidden">
-					<img className="w-32 h-16" src={Hamburger} alt="Menu icon" />
+				<div className="hidden sm:block">
+					<img className="w-24 h-8" src={Hamburger} alt="Menu icon" />
 				</div>
 			</div>
 		</nav>

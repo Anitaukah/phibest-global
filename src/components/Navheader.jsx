@@ -7,7 +7,7 @@ import Phone from "../assets/Images/material-symbols_call.png";
 
 const Navheader = () => {
 	return (
-		<div className="bg-[#0000FA] hidden md:block">
+		<div className="bg-[#0000FA] sm:hidden">
 			{/* w-full max-w-5xl mx-auto */}
 			{/* md:m-auto md:w-[920px] min-w-64  */}
 			<div className="w-full max-w-5xl mx-auto">

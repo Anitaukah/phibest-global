@@ -13,11 +13,11 @@ const WS2 = () => {
 					className="absolute top-0 left-0 w-full h-full object-fill -z-10"
 				/>
 				<div className="h-[80vh] flex flex-col justify-center items-center gap-10 text-center w-full max-w-5xl mx-auto">
-					<h1 className="text-4xl">
+					<h1 className="text-4xl animate__animated animate__fadeInDown">
 						Building Trust, One Project at a Time.
 					</h1>
 
-					<p className="text-2xl">
+					<p className="text-2xl ">
 						We deliver other services like Civil Engineering works,
 						Fabrication Engineering/ installation, Logistics, Equipment
 						leasing, Solar street light installation, Corrosion control/

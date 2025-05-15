@@ -9,6 +9,10 @@ export default {
 		extend: {
 			backgroundImage: { Image8: "url ('../assets/Images/image-8.png')" },
 		},
+		screens: {
+			sm: "375px",
+			// => @media (min-width: 640px) { ... }
+		},
 	},
 	plugins: [],
 };
