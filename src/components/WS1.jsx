@@ -8,7 +8,10 @@ import Image48 from "../assets/Images/image (48).png";
 const WS1 = () => {
 	return (
 		<div className="bg-[#FDE9E9] py-12">
-			<div className="w-full max-w-5xl mx-auto " id="pipe&anode">
+			<div
+				className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]"
+				id="pipe&anode"
+			>
 				<h1 className="text-center text-2xl font-medium mb-5 ">
 					Pipeline and Anode Fabrication
 				</h1>
@@ -19,7 +22,7 @@ const WS1 = () => {
 					and planning, Material selection, Pipe manufacturing, Welding and
 					joining, Coating and lining, Testing and inspection.
 				</p>
-				<div className="flex gap-8">
+				<div className="flex flex-col md:flex-row gap-8 md:justify-between">
 					<div>
 						<img className="h-52 w-72 rounded-lg" src={Image50} alt="" />
 					</div>

@@ -8,3 +8,13 @@ the process to complete this website
 -create the sidebar for the home page for navigations --friday
 -add the animations to the header section --saturday
 -add animate on scroll then wrap up --sunday
+
+
+things i need to go done to complete the website
+
+**add google fonts
+**make the navbar fixed while scrolling
+**make the service page responsive for mobile
+**add the javascript code for sidebar
+**fix routing for service page
+**add the meta informations and keywords

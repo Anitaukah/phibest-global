@@ -8,7 +8,7 @@ import Work4 from "../assets/Images/work4.png";
 
 const WS3 = () => {
 	return (
-		<div className="w-full max-w-5xl mx-auto mb-12 ">
+		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]mb-12 ">
 			<div className="my-8" id="clear&forward">
 				<h1 className="text-center text-2xl font-medium mb-5 ">
 					Clearing and Forwarding
@@ -19,7 +19,7 @@ const WS3 = () => {
 					service vessel, ship and airplane from different terminal across
 					the nation with worth of experience.
 				</p>
-				<div className="flex gap-8">
+				<div className="flex flex-col md:flex-row  gap-8">
 					<div>
 						<img className="h-52 w-72 rounded-lg" src={Work1} alt="" />
 					</div>

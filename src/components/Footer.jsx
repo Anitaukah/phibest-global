@@ -9,11 +9,11 @@ const Footer = () => {
 	return (
 		<div className="bg-[#272626] text-white p-8 mt-7">
 			{/* w-full max-w-5xl mx-auto */}
-			<div className="  ">
+			<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]">
 				<h1 className="text-base md:text-sm">
 					Phibest Global Services Policies Includes;
 				</h1>
-				<div className="flex flex-col md:flex-row md:justify-between text-base md:text-xs">
+				<div className="flex flex-col justify-center md:flex-row md:justify-between text-base md:text-xs">
 					<div className="flex flex-col md:flex-row gap-0 md:gap-8 mt-4">
 						<div>
 							<ul>
@@ -26,7 +26,7 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="mt-4">
+						<div className="mt-4 md:mt-0">
 							<ul>
 								<li className="pb-1">Access Policy</li>
 								<li className="pb-1">
@@ -42,14 +42,14 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="flex flex-col md:flex-row md:gap-10 mt-4">
+					<div className="flex flex-row-reverse justify-between md:flex-row md:gap-10 mt-4">
 						<div className="">
 							<ul>
 								<li className="pb-1 hover:underline">
 									<a href="#Home">Home</a>
 								</li>
 								<li className="pb-1 hover:underline">
-									<a href="#About">About Us</a>
+									<a href="#About">About</a>
 								</li>
 								<li className="pb-1 hover:underline">
 									<a href="#Policy">Policy</a>
@@ -59,29 +59,29 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="mt-4 md:mt-0">
+						<div className=" md:mt-0">
 							<ul>
-								<li className="flex items-center gap-2 mb-2">
+								<li className="flex items-center md:gap-2 gap-3 mb-2">
 									<span>
 										<img
-											className="w-5 h-5"
+											className="md:w-5 md:h-5 w-8 "
 											src={Location}
 											alt="message icon"
 										/>
 									</span>
 									KM.3 Harbour Road Davo Plaza, By Njinna Hotel
 								</li>
-								<li className=" flex items-center gap-2 mb-2">
+								<li className=" flex items-center md:gap-2 gap-3 mb-2">
 									<img
-										className="w-5 h-5"
+										className="md:w-5 md:h-5 w-6"
 										src={Phone}
 										alt="message icon"
 									/>
 									+234 (0) 803 677 6697
 								</li>
-								<li className="hover:underline flex items-center gap-2">
+								<li className="hover:underline flex items-center md:gap-2 gap-3">
 									<img
-										className="w-5 h-5"
+										className="md:w-5 md:h-5 w-6"
 										src={Envelop}
 										alt="message icon"
 									/>

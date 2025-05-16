@@ -7,15 +7,15 @@ import Vector2 from "../assets/Images/Vector(2).png";
 
 const Policy = () => {
 	return (
-		<div className="">
+		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]">
 			{/* w-full max-w-5xl mx-auto */}
-			<section className="my-8" id="Policy">
+			<section className="mx-4 my-8" id="Policy">
 				<div className="flex items-center justify-between">
-					<div className="w-32 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
-					<h1 className="text-center mt-5 pb-6 font-bold text-4xl">
+					<div className="w-20 md:w-32 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
+					<h1 className="text-center mt-5 pb-6 font-bold md:text-4xl text-xl">
 						HSE Policy Statement
 					</h1>
-					<div className="w-32 h-2 bg-[#0000FA] rounded-tr-lg rounded-br-lg"></div>
+					<div className="w-20 md:w-32 h-2 bg-[#0000FA] rounded-tr-lg rounded-br-lg"></div>
 				</div>
 
 				<p className="py-4 mb-5 ">
@@ -23,8 +23,8 @@ const Policy = () => {
 					accidents/injuries are preventable and therefore unacceptable in
 					her operations.
 				</p>
-				<div className="flex flex-col md:flex-row gap-8 mt-6">
-					<div className="bg-[#272626] text-white rounded-lg ">
+				<div className="flex flex-col md:flex-row gap-8 mt-6 ">
+					<div className="bg-[#272626] text-white rounded-lg pb-8 ">
 						<div className="flex justify-center mt-4">
 							<img className="w-9 h-10" src={Vector} alt="" />
 						</div>
@@ -50,7 +50,7 @@ const Policy = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="bg-[#272626] text-white rounded-lg ">
+					<div className="bg-[#272626] text-white rounded-lg pb-8">
 						<div className="flex justify-center mt-4">
 							<img className="w-9 h-10" src={Vector1} alt="" />
 						</div>
@@ -58,7 +58,7 @@ const Policy = () => {
 							Environmental Policy
 						</h2>
 						<div className="">
-							<ul className="list-disc mx-9 mb-8">
+							<ul className="list-disc mx-9">
 								<li>
 									Will promote, protect, encourage and create awareness
 									for the preservation of the environment.
@@ -78,7 +78,7 @@ const Policy = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="bg-[#272626] text-white rounded-lg">
+					<div className="bg-[#272626] text-white rounded-lg pb-8">
 						<div className="flex justify-center mt-4">
 							<img className="w-9 h-10" src={Vector2} alt="" />
 						</div>

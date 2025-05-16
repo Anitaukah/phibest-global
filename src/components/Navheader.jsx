@@ -10,7 +10,7 @@ const Navheader = () => {
 		<div className="bg-[#0000FA] hidden md:block">
 			{/* w-full max-w-5xl mx-auto */}
 			{/* md:m-auto md:w-[920px] min-w-64  */}
-			<div className="w-full">
+			<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]">
 				<ul className="flex justify-between text-white py-4 text-sm">
 					<li className=" flex items-center">
 						<img className="w-6 h-7" src={Phone} alt="message icon" />

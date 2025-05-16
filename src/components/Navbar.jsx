@@ -6,12 +6,12 @@ import Hamburger from "../assets/Images/bars-solid.svg";
 
 const Navbar = () => {
 	return (
-		<nav className="bg-white relative " id="Home ">
+		<nav className="bg-white md:m-auto md:max-w-[920px] m-auto max-w-[540px]" id="Home ">
 			{/* w-full max-w-5xl mx-auto  */}
 			{/* w-[920px] min-w-80 md:m-auto sm:max-w-[1040px] justify-between items-center mx-auto max-w-2xl lg:max-w-none*/}
 			<div className="flex items-center justify-between bg-white ">
 				<img
-					className="w-28 h-16 md:w-28 md:h-16 pl-8 md:pl-0"
+					className="w-28 h-16 md:w-28 md:h-16  md:pl-0"
 					src={Logo}
 					alt="Phibest global company logo"
 				/>
@@ -21,7 +21,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="/"
-								className="hover:text-[#EB1E23] hover:font-medium"
+								className="hover:text-[#EB1E23] font-medium"
 							>
 								Home
 							</a>
@@ -29,7 +29,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="#About"
-								className="ml-20 hover:text-[#EB1E23] hover:font-medium"
+								className="ml-20 hover:text-[#EB1E23] font-medium"
 							>
 								About
 							</a>
@@ -37,7 +37,7 @@ const Navbar = () => {
 						<li>
 							<a
 								href="#Policy"
-								className="ml-20 hover:text-[#EB1E23] hover:font-medium"
+								className="ml-20 hover:text-[#EB1E23] font-medium"
 							>
 								Policy
 							</a>
@@ -46,7 +46,7 @@ const Navbar = () => {
 							<a
 								href="/Service"
 								target="_blank"
-								className="ml-20 hover:text-[#EB1E23] hover:font-medium active:underline"
+								className="ml-20 hover:text-[#EB1E23] font-medium active:underline"
 							>
 								Services
 							</a>
