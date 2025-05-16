@@ -8,11 +8,12 @@ import Phone from "../assets/Images/material-symbols_call.png";
 const Footer = () => {
 	return (
 		<div className="bg-[#272626] text-white p-8 mt-7">
-			<div className="w-full max-w-5xl mx-auto  ">
+			{/* w-full max-w-5xl mx-auto */}
+			<div className="  ">
 				<h1 className="text-sm">
 					Phibest Global Services Policies Includes;
 				</h1>
-				<div className="flex justify-between text-xs ">
+				<div className="flex flex-col md:justify-between text-xs ">
 					<div className="flex gap-8 mt-2">
 						<div>
 							<ul>
@@ -41,7 +42,7 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="flex gap-10">
+					<div className="flex flex-col md:flex gap-10">
 						<div className="grid">
 							<ul>
 								<li className="pb-1 hover:underline">

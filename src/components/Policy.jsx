@@ -7,7 +7,8 @@ import Vector2 from "../assets/Images/Vector(2).png";
 
 const Policy = () => {
 	return (
-		<div className="w-full max-w-5xl mx-auto">
+		<div className="">
+			{/* w-full max-w-5xl mx-auto */}
 			<section className="my-8" id="Policy">
 				<div className="flex items-center justify-between">
 					<div className="w-32 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
@@ -22,7 +23,7 @@ const Policy = () => {
 					accidents/injuries are preventable and therefore unacceptable in
 					her operations.
 				</p>
-				<div className="grid grid-cols-3 gap-8 mt-6">
+				<div className="flex flex-col md:flex-row gap-8 mt-6">
 					<div className="bg-[#272626] text-white rounded-lg ">
 						<div className="flex justify-center mt-4">
 							<img className="w-9 h-10" src={Vector} alt="" />

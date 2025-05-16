@@ -7,10 +7,10 @@ import Phone from "../assets/Images/material-symbols_call.png";
 
 const Navheader = () => {
 	return (
-		<div className="bg-[#0000FA] sm:hidden">
+		<div className="bg-[#0000FA] hidden md:block">
 			{/* w-full max-w-5xl mx-auto */}
 			{/* md:m-auto md:w-[920px] min-w-64  */}
-			<div className="w-full max-w-5xl mx-auto">
+			<div className="w-full">
 				<ul className="flex justify-between text-white py-4 text-sm">
 					<li className=" flex items-center">
 						<img className="w-6 h-7" src={Phone} alt="message icon" />
