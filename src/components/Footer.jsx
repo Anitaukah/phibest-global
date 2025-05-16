@@ -10,11 +10,11 @@ const Footer = () => {
 		<div className="bg-[#272626] text-white p-8 mt-7">
 			{/* w-full max-w-5xl mx-auto */}
 			<div className="  ">
-				<h1 className="text-sm">
+				<h1 className="text-base md:text-sm">
 					Phibest Global Services Policies Includes;
 				</h1>
-				<div className="flex flex-col md:justify-between text-xs ">
-					<div className="flex gap-8 mt-2">
+				<div className="flex flex-col md:flex-row md:justify-between text-base md:text-xs">
+					<div className="flex flex-col md:flex-row gap-0 md:gap-8 mt-4">
 						<div>
 							<ul>
 								<li className="pb-1">Emergency Response Policy</li>
@@ -26,7 +26,7 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div>
+						<div className="mt-4">
 							<ul>
 								<li className="pb-1">Access Policy</li>
 								<li className="pb-1">
@@ -42,8 +42,8 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="flex flex-col md:flex gap-10">
-						<div className="grid">
+					<div className="flex flex-col md:flex-row md:gap-10 mt-4">
+						<div className="">
 							<ul>
 								<li className="pb-1 hover:underline">
 									<a href="#Home">Home</a>
@@ -59,7 +59,7 @@ const Footer = () => {
 								</li>
 							</ul>
 						</div>
-						<div>
+						<div className="mt-4 md:mt-0">
 							<ul>
 								<li className="flex items-center gap-2 mb-2">
 									<span>

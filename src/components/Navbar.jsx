@@ -8,16 +8,16 @@ const Navbar = () => {
 	return (
 		<nav className="bg-white relative " id="Home ">
 			{/* w-full max-w-5xl mx-auto  */}
-			{/* w-[920px] min-w-80 md:m-auto sm:max-w-[1040px] justify-between items-center */}
-			<div className=" flex items-center justify-between">
+			{/* w-[920px] min-w-80 md:m-auto sm:max-w-[1040px] justify-between items-center mx-auto max-w-2xl lg:max-w-none*/}
+			<div className="flex items-center justify-between bg-white ">
 				<img
-					className="w-28 h-20 md:w-28 md:h-16"
+					className="w-28 h-16 md:w-28 md:h-16 pl-8 md:pl-0"
 					src={Logo}
 					alt="Phibest global company logo"
 				/>
 				{/* md:block */}
-				<div className="text-[18px] hidden ">
-					<ul className="flex">
+				<div className="text-[18px] hidden md:block">
+					<ul className="md:flex">
 						<li>
 							<a
 								href="/"
@@ -53,8 +53,8 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</div>
-				{/* md:hidden */}
-				<div className=" block">
+				{/* */}
+				<div className="md:hidden block">
 					<img className="w-24 h-8" src={Hamburger} alt="Menu icon" />
 				</div>
 			</div>

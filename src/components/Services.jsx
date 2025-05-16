@@ -49,7 +49,7 @@ const Services = () => {
 					Fabrication Optimum Maintenance services
 				</h2>
 
-				<div className="flex flex-col md:flex-row gap-13">
+				<div className="flex flex-col md:flex-row gap-16 md:gap-8">
 					<div className="h-52 w-72 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
 						<img
 							className="h-52 w-72 rounded-t-lg"
@@ -77,7 +77,7 @@ const Services = () => {
 						</p>
 					</div>
 				</div>
-				<p className="pt-8 text-justify">
+				<p className="mt-8 text-justify">
 					Our maintenance service can cover any type of defects / anomalies
 					/ deteriotation. The most typical is corrosions on the steel over
 					a long time service.
