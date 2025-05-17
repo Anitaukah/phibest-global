@@ -1,5 +1,5 @@
 /** @format */
-
+import "./App.css";
 import React from "react";
 import Navheader from "./components/Navheader";
 import Navbar from "./components/Navbar";

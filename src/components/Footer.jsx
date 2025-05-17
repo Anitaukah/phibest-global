@@ -55,7 +55,9 @@ const Footer = () => {
 									<a href="#Policy">Policy</a>
 								</li>
 								<li className="pb-1 hover:underline">
-									<a href="/Service">Services</a>
+									<a href="/Service" target="_blank">
+										Services
+									</a>
 								</li>
 							</ul>
 						</div>

@@ -22,6 +22,7 @@ const Navbar = () => {
 							<a
 								href="/"
 								className="hover:text-[#EB1E23] font-medium"
+								target="_blank"
 							>
 								Home
 							</a>
