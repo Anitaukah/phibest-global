@@ -25,15 +25,11 @@ const Hero = () => {
 						We deliver Solutions that meets your Expectation
 					</p>
 
-					<button className="bg-[#eb1e23] text-center w-fit justify-self-center text-white p-3 px-10 md:text-2xl text-xl md:rounded-xl rounded-full animate__animated animate__slideInLeft">
-						<a
-								href="/Service"
-								target="_blank"
-								className="ml-20 hover:text-[#EB1E23] font-medium active:underline"
-							>
-								Services
-							</a>
-					</button>
+					<a href="/Service" target="_blank" className="font-medium">
+						<button className="bg-[#eb1e23] w-fit justify-self-center text-white p-3 px-10 md:text-2xl text-xl md:rounded-xl rounded-full animate__animated animate__slideInLeft">
+							Services
+						</button>
+					</a>
 				</div>
 			</section>
 		</div>
