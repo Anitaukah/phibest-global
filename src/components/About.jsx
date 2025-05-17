@@ -12,10 +12,13 @@ import Image5 from "../assets/Images/image-5.png";
 
 const About = () => {
 	return (
-		<div >
+		<div>
 			{/* m-auto w-[920px] min-w-64 */}
-			<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]" id="About ">
-				<div className="flex flex-col-reverse md:flex-row md:justify-between  gap-5 mx-4 md:mx-0">
+			<div
+				className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]"
+				id="About "
+			>
+				<div className="flex flex-col-reverse md:flex-row md:justify-between mx-4 gap-5">
 					<div className="bg-[#B0B0FD] w-80 h-48 md:w-96 md:h-64 rounded-lg mt-4 mb-16 ">
 						<img
 							className="w-80 h-48 md:w-96 md:h-64 rounded-lg ml-[2rem] mt-[2rem]"
