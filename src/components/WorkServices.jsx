@@ -17,12 +17,12 @@ import Image49 from "../assets/Images/image (49).png";
 
 const WorkServices = () => {
 	return (
-		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] mt-24 ">
-			<h1 className="text-2xl mb-4 font-medium text-[#0000FA] ">
+		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] mb:mt-24 mt-10 ">
+			<h1 className="md:text-2xl text-3xl mb-4 font-medium text-[#0000FA] text-center">
 				Our Services include
 			</h1>
-			<div className="my-8" id="bitumen&oil">
-				<h1 className="text-center text-2xl font-medium mb-5">
+			<div className="my-8 mx-4" id="bitumen&oil">
+				<h1 className="text-center md:text-2xl text-xl font-medium mb-5">
 					Bitumen Cleaning and Oil Based Mud
 				</h1>
 				<p className="text-base text-justify mb-5">
@@ -31,8 +31,8 @@ const WorkServices = () => {
 					sticky substance making cleaning challenging but here at Phibest
 					Global services we help you take care of bitumen.
 				</p>
-				<div className="flex flex-col md:flex-row gap-8 ">
-					<div className="relative h-52 w-72">
+				<div className="flex flex-col md:flex-row items-center gap-8 ">
+					<div className="relative h-52 w-80">
 						<img className="h-52 w-72" src={Image44} alt="" />
 						<p className="bg-[#0000FA] text-center py-3 text-white absolute bottom-[0rem] w-full">
 							Thermal Cleaning
@@ -67,8 +67,8 @@ const WorkServices = () => {
 				</div>
 			</div>
 
-			<div className="my-24" id="vessel&tank">
-				<h1 className="text-center text-2xl font-medium mb-5">
+			<div className="my-24 mx-4" id="vessel&tank">
+				<h1 className="text-center md:text-2xl text-xl font-medium mb-5">
 					Vessel and Storage Tank Cleaning
 				</h1>
 				<p className="text-base text-justify mb-5">
@@ -92,8 +92,8 @@ const WorkServices = () => {
 				</div>
 			</div>
 
-			<div className="my-24" id="barite&slug">
-				<h1 className="text-center text-2xl font-medium mb-5">
+			<div className="my-24 mx-4" id="barite&slug">
+				<h1 className="text-center md:text-2xl text-xl font-medium mb-5">
 					Barite and Bentonite Slug
 				</h1>
 				<p className="text-base text-justify mb-5">

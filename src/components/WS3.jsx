@@ -8,8 +8,8 @@ import Work4 from "../assets/Images/work4.png";
 
 const WS3 = () => {
 	return (
-		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]mb-12 ">
-			<div className="my-8" id="clear&forward">
+		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] mb-12 m ">
+			<div className="my-8 x-4" id="clear&forward">
 				<h1 className="text-center text-2xl font-medium mb-5 ">
 					Clearing and Forwarding
 				</h1>

@@ -9,7 +9,7 @@ const WS1 = () => {
 	return (
 		<div className="bg-[#FDE9E9] py-12">
 			<div
-				className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]"
+				className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] mx-4"
 				id="pipe&anode"
 			>
 				<h1 className="text-center text-2xl font-medium mb-5 ">
