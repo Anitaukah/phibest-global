@@ -17,7 +17,7 @@ const HeroServices = () => {
 							Reliable Industrial Cleaning & Maintenance Services
 						</p>
 
-						<p className="text-lg md:text-3xl text-white text-center animate__animated animate__fadeInDown">
+						<p className="text-lg md:text-3xl font-light text-white text-center animate__animated animate__fadeInDown">
 							We specialize in safe, efficient, and professional services
 							including tank maintenance, Bitumen cleaning, and waste
 							management, tailored to meet the needs of the oil, gas, and

@@ -1,6 +1,8 @@
 /** @format */
 // import "./App.js";
+
 import React from "react";
+// import "./App.css";
 import Logo from "../assets/Images/logo.png";
 import Hamburger from "../assets/Images/bars-solid.svg";
 

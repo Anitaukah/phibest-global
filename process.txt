@@ -16,5 +16,6 @@ things i need to go done to complete the website
 **make the navbar fixed while scrolling
 **make the service page responsive for mobile --done
 **add the javascript code for sidebar
-**fix routing for service page
+**add slide to the hero page
+**fix routing for service page --done
 **add the meta informations and keywords--done

@@ -16,9 +16,9 @@ const About = () => {
 			{/* m-auto w-[920px] min-w-64 */}
 			<div
 				className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]"
-				id="About "
+				id="About"
 			>
-				<div className="flex flex-col-reverse md:flex-row md:justify-between mx-4 gap-5">
+				<div className="flex flex-col-reverse md:flex-row md:justify-between gap-4 mx-2 md:gap-5">
 					<div className="bg-[#B0B0FD] w-80 h-48 md:w-96 md:h-64 rounded-lg mt-4 mb-16 ">
 						<img
 							className="w-80 h-48 md:w-96 md:h-64 rounded-lg ml-[2rem] mt-[2rem]"
@@ -28,7 +28,7 @@ const About = () => {
 						/>
 					</div>
 
-					<div className=" w-[400px]">
+					<div className="md:w-[400px] w-[350px]">
 						<div className="flex items-center justify-center gap-4">
 							<div className="w-10 h-2 bg-[#0000FA] rounded-tl-lg rounded-bl-lg"></div>
 							<h1 className="pb-4 font-bold text-4xl">About Us</h1>
@@ -44,7 +44,7 @@ const About = () => {
 				</div>
 				{/* md:grid-cols-2 pb-16 justify-items-center lg:items-center */}
 				<div className="flex flex-col md:flex-row gap-8 md:justify-between md:mx-0 mx-4">
-					<p className="text-justify text-base  w-[400px]">
+					<p className="text-justify text-base md:w-[400px] w-[350px]">
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of
@@ -70,7 +70,7 @@ const About = () => {
 							loading="lazy"
 						/>
 					</div>
-					<p className="mt-[2rem] text-justify text-base  w-[400px]">
+					<p className="mt-[2rem] text-justify text-base md:w-[400px] w-[350px]">
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of

@@ -1,5 +1,6 @@
 /** @format **/
 import "./App.css";
+// import "./Slide.jsx";
 import Navheader from "./components/Navheader";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -17,7 +18,6 @@ function App() {
 			<Hero />
 			<MetricsSection />
 			<About />
-
 			<Policy />
 			<Services />
 			<Footer />
