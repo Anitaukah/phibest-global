@@ -34,7 +34,7 @@ const About = () => {
 							<h1 className="pb-4 font-bold text-4xl">About Us</h1>
 							<div className="w-10 h-2 bg-[#0000FA] rounded-tr-lg rounded-br-lg"></div>
 						</div>
-						<p className="text-base text-justify ">
+						<p className="text-base text-center ">
 							Phibest Global Services Limited is a company based in
 							Nigeria providing services in Nigeria to oil and oil
 							service companies for their offshore and onshore
@@ -44,7 +44,7 @@ const About = () => {
 				</div>
 				{/* md:grid-cols-2 pb-16 justify-items-center lg:items-center */}
 				<div className="flex flex-col md:flex-row gap-8 md:justify-between md:mx-0 mx-4">
-					<p className="text-justify text-base md:w-[400px] w-[350px]">
+					<p className="text-center text-base md:w-[400px] w-[350px]">
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of
@@ -70,7 +70,7 @@ const About = () => {
 							loading="lazy"
 						/>
 					</div>
-					<p className="mt-[2rem] text-justify text-base md:w-[400px] w-[350px]">
+					<p className="mt-[2rem] text-center text-base md:w-[400px] w-[350px]">
 						We render services like Vessel tank cleaning/ Storage tank
 						cleaning, Bitumen cleaning and Oil base mod, Barite and
 						Bentoment slog, Pipeline fabrication, anode fabrication of

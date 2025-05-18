@@ -5,8 +5,8 @@ import Image42 from "../assets/Images/image (42).png";
 import Image43 from "../assets/Images/image (43).png";
 const WhyChooseUs = () => {
 	return (
-		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px]">
-			<div className="flex flex-col-reverse md:flex-row justify-center gap-10 md:justify-between relative mx-4">
+		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] ">
+			<div className="flex flex-col-reverse md:flex-row justify-center gap-10 md:justify-between relative mx-4 mb-12">
 				<div className="relative">
 					<img
 						className="w-52 h-72 md:w-80 md:h-80"

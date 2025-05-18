@@ -55,7 +55,7 @@ const Services = () => {
 				<div className="flex flex-col md:flex-row justify-center gap-16 md:gap-8 md:mb-12 mx-2">
 					<div className="w-80 h-64 md:h-52 md:w-72 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
 						<img
-							className="w-72 h-64 md:h-52 md:w-72 rounded-t-lg"
+							className="w-80 h-64 md:h-52 md:w-72 rounded-t-lg"
 							src={Image12}
 							alt=""
 						/>
@@ -65,7 +65,7 @@ const Services = () => {
 					</div>
 					<div className="w-80 h-64 md:h-52 md:w-72 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
 						<img
-							className="w-72 h-64 md:h-52 md:w-72 rounded-t-lg"
+							className="w-80 h-64 md:h-52 md:w-72 rounded-t-lg"
 							src={Image10}
 							alt=""
 						/>
@@ -75,7 +75,7 @@ const Services = () => {
 					</div>
 					<div className="w-80 h-64 md:h-52 md:w-72 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]">
 						<img
-							className="w-72 h-64 md:h-52 md:w-72 "
+							className="w-80 h-64 md:h-52 md:w-72 "
 							src={Image11}
 							alt=""
 						/>
