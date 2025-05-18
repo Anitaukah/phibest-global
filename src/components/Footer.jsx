@@ -42,8 +42,8 @@ const Footer = () => {
 							</ul>
 						</div>
 					</div>
-					<div className="flex flex-row-reverse justify-between md:flex-row md:gap-10 mt-4">
-						<div className="">
+					<div className="flex flex-col-reverse items-center md:justify-between md:flex-row md:gap-10 mt-4">
+						<div className="mt-6">
 							<ul>
 								<li className="pb-1 hover:underline">
 									<a href="#Home">Home</a>

@@ -71,7 +71,7 @@ const WorkServices = () => {
 				</div>
 			</div>
 
-			<div className="my-24 mx-4" id="vessel&tank">
+			<div className="mt-24 mx-4" id="vessel&tank">
 				<h1 className="text-center md:text-2xl text-xl font-medium mb-5">
 					Vessel and Storage Tank Cleaning
 				</h1>
@@ -80,7 +80,7 @@ const WorkServices = () => {
 					expertise and equipment to ensure thorough and safe cleaning. At
 					Phibest Global, we offer both manual and automated cleaning.
 				</p>
-				<div className="flex flex-col md:flex-row gap-10 md:gap-8">
+				<div className="flex flex-col md:flex-row items-center gap-10 md:gap-8">
 					<div>
 						<img className="h-52 w-72 rounded-lg" src={Image46} alt="" />
 					</div>
@@ -96,7 +96,7 @@ const WorkServices = () => {
 				</div>
 			</div>
 
-			<div className="my-18 md:my-18 mx-4" id="barite&slug">
+			<div className="mt-16 mx-4" id="barite&slug">
 				<h1 className="text-center md:text-2xl text-xl font-medium mb-5">
 					Barite and Bentonite Slug
 				</h1>
@@ -105,7 +105,7 @@ const WorkServices = () => {
 					particularly in Oil and Gas exploration to control pressure and
 					maintain drilling fluid properties.
 				</p>
-				<div className="flex flex-col md:flex-row justify-center gap-8">
+				<div className="flex flex-col md:flex-row items-center gap-8 mb-12">
 					<div>
 						<img className="h-52 w-72 rounded-lg" src={Image49} alt="" />
 					</div>
