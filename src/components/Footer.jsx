@@ -13,7 +13,7 @@ const Footer = () => {
 				<h1 className="text-base md:text-sm">
 					Phibest Global Services Policies Includes;
 				</h1>
-				<div className="flex flex-col justify-center md:flex-row md:justify-between text-base md:text-xs">
+				<div className="flex flex-col items-center md:flex-row md:justify-between text-base md:text-xs">
 					<div className="flex flex-col md:flex-row gap-0 md:gap-8 mt-4">
 						<div>
 							<ul>
