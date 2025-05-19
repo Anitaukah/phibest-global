@@ -30,7 +30,7 @@ const Hero = () => {
 		},
 		{
 			index: 3,
-			url: "src/assets/Images/image-8.png",
+			url: "src/assets/Images/image.png",
 		},
 	];
 
@@ -59,7 +59,7 @@ const Hero = () => {
 					className="absolute top-0 left-0 w-full h-full object-cover -z-10"
 				/>
 
-				<div className="h-[80vh] flex flex-col justify-center md:items-center md:gap-6 gap-3 md:text-center pl-3">
+				<div className="h-[80vh] flex flex-col justify-center md:items-center md:gap-6 gap-1 md:text-center pl-3">
 					<h1 className="md:text-5xl text-3xl animate__animated animate__slideInLeft md:animate__fadeInDown">
 						Bitumen Cleaning and Oil-Based Mud (OBM).
 					</h1>
@@ -70,35 +70,48 @@ const Hero = () => {
 						We deliver Solutions that meets your Expectation
 					</p>
 
-					<a href="/Service" target="_blank" className="font-medium">
+					
 						<button className="bg-[#eb1e23] w-fit justify-self-center text-white p-3 px-10 md:text-2xl text-xl md:rounded-xl rounded-full animate__animated animate__slideInLeft">
-							Services
+							<a href="/Service" target="_blank" className="font-medium">Services</a>
 						</button>
-					</a>
+					
 				</div>
 			</section>
-			<div
-				onClick={handlePrev}
-				className="absolute top-[50%] left-2  transform -translate-y-1/2 rounded-[50%] cursor-pointer"
-			>
-				<IoIosArrowBack size={30} />
-			</div>
-			<div
-				onClick={handleNext}
-				className="absolute top-[50%] right-2  transform -translate-y-1/2 rounded-[50%] cursor-pointer"
-			>
-				<IoIosArrowForward size={30} />
-			</div>
-			<div className="flex justify-center">
-				{images.map((item) => (
-					<div>
-						{item.index === currentImages ? (
-							<GoDotFill size={20} />
-						) : (
-							<GoDot size={20} />
-						)}
-					</div>
-				))}
+			<div class>
+				<div
+					onClick={handlePrev}
+					className="hidden md:block absolute top-[50%] left-0 md:left-2  transform -translate-y-1/2 rounded-[50%] cursor-pointer"
+				>
+					<IoIosArrowBack size={30} />
+				</div>
+				<div
+					onClick={handleNext}
+					className="hidden md:block absolute top-[50%] md:right-2 right-0  transform -translate-y-1/2 rounded-[50%] cursor-pointer"
+				>
+					<IoIosArrowForward size={30} />
+				</div>
+				<div className="md:flex justify-center hidden">
+					{images.map((item) => (
+						<div>
+							{item.index === currentImages ? (
+								<GoDotFill size={20} />
+							) : (
+								<GoDot size={20} />
+							)}
+						</div>
+					))}
+				</div>
+				<div className="flex justify-center md:hidden">
+					{images.map((item) => (
+						<div>
+							{item.index === currentImages ? (
+								<GoDotFill onClick={() => setCurrentImage (item.index)} size={20} />
+							) : (
+								<GoDot onClick={() => setCurrentImage (item.index)} size={20} />
+							)}
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);
