@@ -10,18 +10,21 @@ import Policy from "./components/Policy";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
 
+
 function App() {
 	return (
-		<div>
-			<Navheader />
-			<Navbar />
-			<Hero />
-			<MetricsSection />
-			<About />
-			<Policy />
-			<Services />
-			<Footer />
-		</div>
+
+			<div>
+				<Navheader />
+				<Navbar />
+				<Hero />
+				<MetricsSection />
+				<About />
+				<Policy />
+				<Services />
+				<Footer />
+			</div>
+		
 	);
 }
 

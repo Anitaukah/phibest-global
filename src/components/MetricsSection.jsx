@@ -4,6 +4,7 @@ import React from "react";
 
 const MetricsSection = () => {
 	return (
+		
 		<div className="bg-[#0000FA] my-12">
 			{/* w-full max-w-5xl mx-auto  */}
 			{/* md:m-auto w-[920px] my-auto mx-10 */}

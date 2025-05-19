@@ -7,6 +7,11 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { GoDot } from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
+import {
+	ParallaxBanner,
+	ParallaxBannerLayer,
+	ParallaxProvider,
+} from "react-scroll-parallax";
 // import bg from "../assets/Images/header.png";
 // import Image55 from "../assets/Images/image (55).png";
 // import Image37 from "../assets/Images/image (37).png";
@@ -70,11 +75,11 @@ const Hero = () => {
 						We deliver Solutions that meets your Expectation
 					</p>
 
-					
-						<button className="bg-[#eb1e23] w-fit justify-self-center text-white p-3 px-10 md:text-2xl text-xl md:rounded-xl rounded-full animate__animated animate__slideInLeft">
-							<a href="/Service" target="_blank" className="font-medium">Services</a>
-						</button>
-					
+					<button className="bg-[#eb1e23] w-fit justify-self-center text-white p-3 px-10 md:text-2xl text-xl md:rounded-xl rounded-full animate__animated animate__slideInLeft">
+						<a href="/Service" target="_blank" className="font-medium">
+							Services
+						</a>
+					</button>
 				</div>
 			</section>
 			<div class>
@@ -105,9 +110,15 @@ const Hero = () => {
 					{images.map((item) => (
 						<div>
 							{item.index === currentImages ? (
-								<GoDotFill onClick={() => setCurrentImage (item.index)} size={20} />
+								<GoDotFill
+									onClick={() => setCurrentImage(item.index)}
+									size={20}
+								/>
 							) : (
-								<GoDot onClick={() => setCurrentImage (item.index)} size={20} />
+								<GoDot
+									onClick={() => setCurrentImage(item.index)}
+									size={20}
+								/>
 							)}
 						</div>
 					))}
