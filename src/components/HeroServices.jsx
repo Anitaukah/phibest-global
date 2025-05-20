@@ -13,19 +13,19 @@ const HeroServices = () => {
 	const images = [
 		{
 			index: 0,
-			url: "src/assets/Images/image-8.png",
+			url: "./src/assets/Images/image-8.png",
 		},
 		{
 			index: 1,
-			url: "src/assets/Images/image-7.png",
+			url: "./src/assets/Images/image-7.png",
 		},
 		{
 			index: 2,
-			url: "src/assets/Images/image (50).png",
+			url: "./src/assets/Images/image (50).png",
 		},
 		{
 			index: 3,
-			url: "src/assets/Images/image (44).png",
+			url: "./src/assets/Images/image (44).png",
 		},
 	];
 
@@ -46,7 +46,7 @@ const HeroServices = () => {
 	};
 	return (
 		<div>
-			<div className=" relative overflow-hidden text-white bg-black/65 mt-3">
+			<div className=" relative overflow-hidden text-white bg-black/65">
 				<section className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] mx-4">
 					<img
 						src={images[currentImages].url}

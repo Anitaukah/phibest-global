@@ -93,7 +93,7 @@ const Navbar = () => {
 					)}
 
 					{isOpen ? (
-						<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-screen min-h-52 pt-20 duration-300 ease-in text-xl">
+						<div className=" bg-white overflow-y-hidden fixed z-10 top-0 left-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-screen min-h-52 pt-20 duration-300 ease-in-out text-xl">
 							<ul className="flex items-center flex-col">
 								<li>
 									<a
