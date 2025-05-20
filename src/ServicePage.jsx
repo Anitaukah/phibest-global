@@ -1,7 +1,7 @@
 /** @format */
 import "./App.css";
 import React from "react";
-import Navheader from "./components/Navheader";
+// import Navheader from "./components/Navheader";
 import Navbar from "./components/Navbar";
 import HeroServices from "./components/HeroServices";
 import WhyChooseUs from "./components/WhyChooseUs";
@@ -15,7 +15,7 @@ import FooterServices from "./components/FooterServices";
 const Service_page = () => {
 	return (
 		<div>
-			<Navheader />
+			{/* <Navheader /> */}
 			<Navbar />
 			<HeroServices />
 			<RatingServices />

@@ -67,13 +67,10 @@ const Navbar = () => {
 					</ul>
 				</div>
 			</div>
-			<div
-				className="bg-white "
-				id="Home "
-			>
-				<div className="flex items-center justify-between  md:m-auto md:max-w-[920px] m-auto max-w-[540px] ">
+			<div className="bg-white shadow-nav " id="Home ">
+				<div className="flex items-center justify-between py-1 md:m-auto md:max-w-[920px] m-auto max-w-[540px] ">
 					<img
-						className="w-28 h-16 md:w-28 md:h-16 ml-1 md:pl-0"
+						className="w-28 h-16 md:w-28 md:h-16 ml-1 md:pl-0 z-20"
 						src={Logo}
 						alt="Phibest global company logo"
 					/>
@@ -96,12 +93,12 @@ const Navbar = () => {
 					)}
 
 					{isOpen ? (
-						<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-12 pl-8 flex  flex-col gap-12 duration-300 ease-in text-xl">
-							<ul className="">
+						<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-screen min-h-52 pt-20 duration-300 ease-in text-xl">
+							<ul className="flex items-center flex-col">
 								<li>
 									<a
 										href="/"
-										className="hover:text-[#EB1E23] pb-4 font-medium active:underline"
+										className="hover:text-[#EB1E23] font-medium active:underline"
 										target="_blank"
 									>
 										Home

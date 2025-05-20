@@ -51,7 +51,7 @@ const Hero = () => {
 		}
 	};
 	return (
-		<div className="relative overflow-hidden text-white bg-black/65 mt-3">
+		<div className="relative overflow-hidden text-white bg-black/65">
 			<section className=" md:m-auto md:max-w-[920px] m-auto max-w-[540px]">
 				{/* w-full max-w-6xl mx-auto sm:max-w-[1040px] sm:my-auto sm:mx-5  */}
 				<img
