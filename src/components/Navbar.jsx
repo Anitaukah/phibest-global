@@ -2,6 +2,9 @@
 // import "./App.js";
 
 import React, { useEffect, useState } from "react";
+import Envelop from "../assets/Images/ic_baseline-email.png";
+import Location from "../assets/Images/gridicons_location.png";
+import Phone from "../assets/Images/material-symbols_call.png";
 // import "./App.css";
 import Logo from "../assets/Images/logo.png";
 import { HiMenu } from "react-icons/hi";
@@ -22,43 +25,125 @@ const Navbar = () => {
 		}
 	}, [isOpen]);
 	return (
-		<nav
-			className="bg-white md:m-auto md:max-w-[920px] m-auto max-w-[540px]"
-			id="Home "
-		>
-			{/* w-full max-w-5xl mx-auto  */}
-			{/* w-[920px] min-w-80 md:m-auto sm:max-w-[1040px] justify-between items-center mx-auto max-w-2xl lg:max-w-none*/}
-			<div className="flex items-center justify-between bg-white  ">
-				<img
-					className="w-28 h-16 md:w-28 md:h-16 ml-1 md:pl-0"
-					src={Logo}
-					alt="Phibest global company logo"
-				/>
-				{!isOpen && (
-					<div
-						onClick={toggleMenu}
-						className="md:hidden cursor pointer mr-2"
-					>
-						<HiMenu size={30} />
-					</div>
-				)}
+		<nav className="fixed-nav">
+			<div className="bg-[#0000FA] hidden md:block">
+				<div className="md:m-auto md:max-w-[920px] ">
+					<ul className="flex justify-between text-white py-4 text-sm ">
+						<li className=" flex items-center">
+							<img className="w-6 h-7" src={Phone} alt="message icon" />
+							+234 (0) 803 677 6697
+						</li>
+						<li className="hover:underline flex items-center">
+							<img
+								className="w-7 h-7"
+								src={Envelop}
+								alt="message icon"
+							/>
+							<a href="mailto:phizek4life@gmail.com">
+								phizek4life@gmail.com
+							</a>
+						</li>
+						<li className=" flex items-center hover:underline">
+							<img
+								className="w-7 h-7"
+								src={Envelop}
+								alt="message icon"
+							/>
+							<a href="mailto:phizek4life@yahoo.com">
+								phizek4life@yahoo.com
+							</a>
+						</li>
 
-				{isOpen && (
-					<div
-						onClick={toggleMenu}
-						className="md:hidden cursor pointer z-20 mr-4"
-					>
-						<IoClose size={30} />
-					</div>
-				)}
+						<li className="flex items-center">
+							<span>
+								<img
+									className="w-6 h-7"
+									src={Location}
+									alt="message icon"
+								/>
+							</span>
+							KM.3 Harbour Road <br /> Davo Plaza, By Njinna Hotel
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div
+				className="bg-white "
+				id="Home "
+			>
+				<div className="flex items-center justify-between  md:m-auto md:max-w-[920px] m-auto max-w-[540px] ">
+					<img
+						className="w-28 h-16 md:w-28 md:h-16 ml-1 md:pl-0"
+						src={Logo}
+						alt="Phibest global company logo"
+					/>
+					{!isOpen && (
+						<div
+							onClick={toggleMenu}
+							className="md:hidden cursor pointer mr-2"
+						>
+							<HiMenu size={30} />
+						</div>
+					)}
 
-				{isOpen ? (
-					<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-12 pl-8 flex  flex-col gap-12 duration-300 ease-in text-xl">
-						<ul className="">
+					{isOpen && (
+						<div
+							onClick={toggleMenu}
+							className="md:hidden cursor pointer z-20 mr-4"
+						>
+							<IoClose size={30} />
+						</div>
+					)}
+
+					{isOpen ? (
+						<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-12 pl-8 flex  flex-col gap-12 duration-300 ease-in text-xl">
+							<ul className="">
+								<li>
+									<a
+										href="/"
+										className="hover:text-[#EB1E23] pb-4 font-medium active:underline"
+										target="_blank"
+									>
+										Home
+									</a>
+								</li>
+								<li>
+									<a
+										href="#About"
+										className="hover:text-[#EB1E23] font-medium"
+									>
+										About
+									</a>
+								</li>
+								<li>
+									<a
+										href="#Policy"
+										className=" hover:text-[#EB1E23] font-medium"
+									>
+										Policy
+									</a>
+								</li>
+								<li>
+									<a
+										href="/Service"
+										target="_blank"
+										className=" hover:text-[#EB1E23] font-medium active:underline"
+									>
+										Services
+									</a>
+								</li>
+							</ul>
+						</div>
+					) : (
+						<div className="bg-white overflow-y-hidden fixed z-10 top-0 right-[-150%] shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-3 pl-8 flex flex-col gap-12 duration-300 ease-in text-xl"></div>
+					)}
+
+					<div className="text-[18px] hidden md:block">
+						<ul className="md:flex">
 							<li>
 								<a
 									href="/"
-									className="hover:text-[#EB1E23] pb-4 font-medium active:underline"
+									className="hover:text-[#EB1E23] font-medium"
 									target="_blank"
 								>
 									Home
@@ -67,7 +152,7 @@ const Navbar = () => {
 							<li>
 								<a
 									href="#About"
-									className="hover:text-[#EB1E23] font-medium"
+									className="ml-20 hover:text-[#EB1E23] font-medium"
 								>
 									About
 								</a>
@@ -75,7 +160,7 @@ const Navbar = () => {
 							<li>
 								<a
 									href="#Policy"
-									className=" hover:text-[#EB1E23] font-medium"
+									className="ml-20 hover:text-[#EB1E23] font-medium"
 								>
 									Policy
 								</a>
@@ -84,54 +169,13 @@ const Navbar = () => {
 								<a
 									href="/Service"
 									target="_blank"
-									className=" hover:text-[#EB1E23] font-medium active:underline"
+									className="ml-20 hover:text-[#EB1E23] font-medium active:underline"
 								>
 									Services
 								</a>
 							</li>
 						</ul>
 					</div>
-				) : (
-					<div className="bg-white overflow-y-hidden fixed z-10 top-0 right-[-150%] shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-3 pl-8 flex flex-col gap-12 duration-300 ease-in text-xl"></div>
-				)}
-
-				<div className="text-[18px] hidden md:block">
-					<ul className="md:flex">
-						<li>
-							<a
-								href="/"
-								className="hover:text-[#EB1E23] font-medium"
-								target="_blank"
-							>
-								Home
-							</a>
-						</li>
-						<li>
-							<a
-								href="#About"
-								className="ml-20 hover:text-[#EB1E23] font-medium"
-							>
-								About
-							</a>
-						</li>
-						<li>
-							<a
-								href="#Policy"
-								className="ml-20 hover:text-[#EB1E23] font-medium"
-							>
-								Policy
-							</a>
-						</li>
-						<li>
-							<a
-								href="/Service"
-								target="_blank"
-								className="ml-20 hover:text-[#EB1E23] font-medium active:underline"
-							>
-								Services
-							</a>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</nav>
