@@ -53,7 +53,7 @@ const Navbar = () => {
 				)}
 
 				{isOpen ? (
-					<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-screen pt-12 pl-8 flex  flex-col gap-12 duration-300 ease-in text-xl">
+					<div className=" bg-white overflow-y-hidden fixed z-10 top-0 right-0 shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-12 pl-8 flex  flex-col gap-12 duration-300 ease-in text-xl">
 						<ul className="">
 							<li>
 								<a
@@ -92,7 +92,7 @@ const Navbar = () => {
 						</ul>
 					</div>
 				) : (
-					<div className="bg-white overflow-y-hidden fixed z-10 top-0 right-[-150%] shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-screen pt-3 pl-8 flex flex-col gap-12 duration-300 ease-in text-xl"></div>
+					<div className="bg-white overflow-y-hidden fixed z-10 top-0 right-[-150%] shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-[250px] min-h-96 pt-3 pl-8 flex flex-col gap-12 duration-300 ease-in text-xl"></div>
 				)}
 
 				<div className="text-[18px] hidden md:block">
@@ -133,7 +133,6 @@ const Navbar = () => {
 						</li>
 					</ul>
 				</div>
-				
 			</div>
 		</nav>
 	);

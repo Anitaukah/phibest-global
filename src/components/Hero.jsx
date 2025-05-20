@@ -7,11 +7,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 import { GoDot } from "react-icons/go";
 import { GoDotFill } from "react-icons/go";
-import {
-	ParallaxBanner,
-	ParallaxBannerLayer,
-	ParallaxProvider,
-} from "react-scroll-parallax";
+
 // import bg from "../assets/Images/header.png";
 // import Image55 from "../assets/Images/image (55).png";
 // import Image37 from "../assets/Images/image (37).png";
@@ -23,19 +19,19 @@ const Hero = () => {
 	const images = [
 		{
 			index: 0,
-			url: "src/assets/Images/header.png",
+			url: "./src/assets/Images/header.png",
 		},
 		{
 			index: 1,
-			url: "src/assets/Images/image (55).png",
+			url: "./src/assets/Images/image (55).png",
 		},
 		{
 			index: 2,
-			url: "src/assets/Images/image (37).png",
+			url: "./src/assets/Images/image (37).png",
 		},
 		{
 			index: 3,
-			url: "src/assets/Images/image.png",
+			url: "./src/assets/Images/image.png",
 		},
 	];
 
