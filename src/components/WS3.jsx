@@ -1,10 +1,10 @@
 /** @format */
 
 import React from "react";
-import Work1 from "../assets/Images/work1.png";
-import Work2 from "../assets/Images/work2.png";
-import Work3 from "../assets/Images/work3.png";
-import Work4 from "../assets/Images/work4.png";
+import Work1 from "/Images/work1.png";
+import Work2 from "/Images/work2.png";
+import Work3 from "/Images/work3.png";
+import Work4 from "/Images/work4.png";
 
 const WS3 = () => {
 	return (

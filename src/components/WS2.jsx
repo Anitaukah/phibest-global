@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import Image57 from "../assets/Images/image (57).png";
+import Image57 from "/Images/image (57).png";
 
 const WS2 = () => {
 	return (

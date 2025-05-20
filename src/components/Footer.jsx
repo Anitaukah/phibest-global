@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import Envelop from "../assets/Images/ic_baseline-email.png";
-import Location from "../assets/Images/gridicons_location.png";
-import Phone from "../assets/Images/material-symbols_call.png";
+import Envelop from "/Images/ic_baseline-email.png";
+import Location from "/Images/gridicons_location.png";
+import Phone from "/Images/material-symbols_call.png";
 
 const Footer = () => {
 	return (

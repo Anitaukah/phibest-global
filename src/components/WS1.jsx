@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import Image50 from "../assets/Images/image (50).png";
-import Image56 from "../assets/Images/image (56).png";
-import Image48 from "../assets/Images/image (48).png";
+import Image50 from "/Images/image (50).png";
+import Image56 from "/Images/image (56).png";
+import Image48 from "/Images/image (48).png";
 
 const WS1 = () => {
 	return (

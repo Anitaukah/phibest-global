@@ -13,19 +13,19 @@ const HeroServices = () => {
 	const images = [
 		{
 			index: 0,
-			url: "./src/assets/Images/image-8.png",
+			url: "/Images/image-8.png",
 		},
 		{
 			index: 1,
-			url: "./src/assets/Images/image-7.png",
+			url: "/Images/image-7.png",
 		},
 		{
 			index: 2,
-			url: "./src/assets/Images/image (50).png",
+			url: "/Images/image (50).png",
 		},
 		{
 			index: 3,
-			url: "./src/assets/Images/image (44).png",
+			url: "/Images/image (44).png",
 		},
 	];
 

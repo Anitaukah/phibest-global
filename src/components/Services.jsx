@@ -1,12 +1,12 @@
 /** @format */
 
 import React from "react";
-import Image7 from "../assets/Images/image-7.png";
-import Image9 from "../assets/Images/image-9.png";
-import Image8 from "../assets/Images/image-8.png";
-import Image12 from "../assets/Images/image 12.png";
-import Image10 from "../assets/Images/image 10.png";
-import Image11 from "../assets/Images/image 11.png";
+import Image7 from "/Images/image-7.png";
+import Image9 from "/Images/image-9.png";
+import Image8 from "/Images/image-8.png";
+import Image12 from "/Images/image 12.png";
+import Image10 from "/Images/image 10.png";
+import Image11 from "/Images/image 11.png";
 
 const Services = () => {
 	return (

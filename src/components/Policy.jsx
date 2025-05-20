@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import Vector from "../assets/Images/Vector.png";
-import Vector1 from "../assets/Images/Vector(1).png";
-import Vector2 from "../assets/Images/Vector(2).png";
+import Vector from "/Images/Vector.png";
+import Vector1 from "/Images/Vector(1).png";
+import Vector2 from "/Images/Vector(2).png";
 
 const Policy = () => {
 	return (

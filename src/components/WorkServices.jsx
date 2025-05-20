@@ -1,19 +1,19 @@
 /** @format */
 
 import React from "react";
-import Image44 from "../assets/Images/image (44).png";
-import IMG1 from "../assets/Images/image 1.png";
-import Image45 from "../assets/Images/image (45).png";
-import Image41 from "../assets/Images/image (41).png";
-import Image46 from "../assets/Images/image (46).png";
-import Image51 from "../assets/Images/image (51).png";
-import Image47 from "../assets/Images/image (47).png";
-import Image48 from "../assets/Images/image (48).png";
-import Image52 from "../assets/Images/image (52).png";
-import Image53 from "../assets/Images/image (53).png";
-import Image55 from "../assets/Images/image (55).png";
-import Image54 from "../assets/Images/image (54).png";
-import Image49 from "../assets/Images/image (49).png";
+import Image44 from "/Images/image (44).png";
+import IMG1 from "/Images/image 1.png";
+import Image45 from "/Images/image (45).png";
+import Image41 from "/Images/image (41).png";
+import Image46 from "/Images/image (46).png";
+import Image51 from "/Images/image (51).png";
+import Image47 from "/Images/image (47).png";
+import Image48 from "/Images/image (48).png";
+import Image52 from "/Images/image (52).png";
+import Image53 from "/Images/image (53).png";
+import Image55 from "/Images/image (55).png";
+import Image54 from "/Images/image (54).png";
+import Image49 from "/Images/image (49).png";
 
 const WorkServices = () => {
 	return (

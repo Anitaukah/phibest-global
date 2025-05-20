@@ -1,8 +1,10 @@
 /** @format */
 
 import React from "react";
-import Image42 from "../assets/Images/image (42).png";
-import Image43 from "../assets/Images/image (43).png";
+import Image42 from "/Images/image (42).png";
+import Image43 from "/Images/image (43).png";
+
+
 const WhyChooseUs = () => {
 	return (
 		<div className="md:m-auto md:max-w-[920px] m-auto max-w-[540px] ">

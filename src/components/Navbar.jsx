@@ -2,11 +2,11 @@
 // import "./App.js";
 
 import React, { useEffect, useState } from "react";
-import Envelop from "../assets/Images/ic_baseline-email.png";
-import Location from "../assets/Images/gridicons_location.png";
-import Phone from "../assets/Images/material-symbols_call.png";
+import Envelop from "/Images/ic_baseline-email.png";
+import Location from "/Images/gridicons_location.png";
+import Phone from "/Images/material-symbols_call.png";
 // import "./App.css";
-import Logo from "../assets/Images/logo.png";
+import Logo from "/Images/logo.png";
 import { HiMenu } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 // import Open from "../assets/Images/bars-solid.svg";
