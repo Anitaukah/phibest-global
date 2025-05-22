@@ -10,6 +10,7 @@ const WS2 = () => {
 				<img
 					src={Image57}
 					alt="bg"
+					loading="lazy"
 					className="absolute top-0 left-0 w-full h-full md:object-fill object-cover -z-10"
 				/>
 				<div className="h-[80vh] flex flex-col justify-center items-center gap-10 text-center w-full max-w-5xl mx-auto">

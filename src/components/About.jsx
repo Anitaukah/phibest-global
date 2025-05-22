@@ -9,11 +9,11 @@ import Image1 from "/Images/image-1.png";
 import IMG1 from "/Images/image 1.png";
 import Image3 from "/Images/image-3.png";
 import Image5 from "/Images/image-5.png";
-import {
-	ParallaxBanner,
-	ParallaxBannerLayer,
-	ParallaxProvider,
-} from "react-scroll-parallax";
+// import {
+// 	ParallaxBanner,
+// 	ParallaxBannerLayer,
+// 	ParallaxProvider,
+// } from "react-scroll-parallax";
 
 const About = () => {
 	return (
@@ -77,10 +77,9 @@ const About = () => {
 						/>
 					</div>
 					<p className="mt-[2rem] text-center text-base md:w-[400px] w-[350px]">
-						We render services like Vessel tank cleaning/ Storage tank
-						cleaning, Bitumen cleaning and Oil base mod, Barite and
-						Bentoment slog, Pipeline fabrication, anode fabrication of
-						storage tanks and maintenace.
+						Pipeline fabrication is the process of manufacturing pipelines
+						which are used to transport fluids, gases or other materials
+						over long distance.
 					</p>
 				</div>
 			</div>
@@ -105,6 +104,7 @@ const About = () => {
 							className="h-52 w-72 rounded-lg shadow-[#B0B0FD_0px_5px_15px] md:transition-all md:duration-200 md:ease-in-out md:hover:transform  md:hover:scale-110"
 							src={Image3}
 							alt=""
+							loading="lazy"
 						/>
 
 						<img
@@ -117,6 +117,7 @@ const About = () => {
 							className="h-52 w-72 rounded-lg shadow-[#B0B0FD_0px_5px_15px] md:transition-all md:duration-200 md:ease-in-out md:hover:transform  md:hover:scale-110"
 							src={Image5}
 							alt=""
+							loading="lazy"
 						/>
 					</div>
 					<div className="flex flex-col md:flex-row md:justify-center items-center gap-8 pt-10 md:pt-0 md:pb-10 pb-10 ">
@@ -124,16 +125,19 @@ const About = () => {
 							className="h-52 w-72 rounded-lg shadow-[#B0B0FD_0px_5px_15px] md:transition-all md:duration-200 md:ease-in-out md:hover:transform  md:hover:scale-110"
 							src={IMG1}
 							alt=""
+							loading="lazy"
 						/>
 						<img
 							className="h-52 w-72 rounded-lg shadow-[#B0B0FD_0px_5px_15px] md:transition-all md:duration-200 md:ease-in-out md:hover:transform  md:hover:scale-110"
 							src={Image1}
 							alt=""
+							loading="lazy"
 						/>
 						<img
 							className="h-52 w-72 rounded-lg shadow-[#B0B0FD_0px_5px_15px] md:transition-all md:duration-200 md:ease-in-out md:hover:transform  md:hover:scale-110"
 							src={Image4}
 							alt=""
+							loading="lazy"
 						/>
 					</div>
 				</div>

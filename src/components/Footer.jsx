@@ -69,6 +69,7 @@ const Footer = () => {
 											className="md:w-5 md:h-5 w-8 "
 											src={Location}
 											alt="message icon"
+											loading="lazy"
 										/>
 									</span>
 									KM.3 Harbour Road Davo Plaza, By Njinna Hotel
@@ -78,6 +79,7 @@ const Footer = () => {
 										className="md:w-5 md:h-5 w-6"
 										src={Phone}
 										alt="message icon"
+										loading="lazy"
 									/>
 									+234 (0) 803 677 6697
 								</li>
@@ -86,6 +88,7 @@ const Footer = () => {
 										className="md:w-5 md:h-5 w-6"
 										src={Envelop}
 										alt="message icon"
+										loading="lazy"
 									/>
 									<a href="mailto:phizek4life@gmail.com">
 										phizek4life@gmail.com

@@ -55,7 +55,7 @@ const FooterServices = () => {
 						</div>
 					</div>
 					<div className="flex flex-col-reverse items-center md:justify-between md:flex-row md:gap-8 mt-4">
-						<div className="mb-4">
+						{/* <div className="mb-4">
 							<ul>
 								<li className="pb-1 hover:underline">
 									<a href="/">Home</a>
@@ -67,7 +67,7 @@ const FooterServices = () => {
 									<a href="#Policy">Policy</a>
 								</li>
 							</ul>
-						</div>
+						</div> */}
 						<div className="">
 							<ul>
 								<li className="flex items-center gap-2 mb-2">
@@ -76,6 +76,7 @@ const FooterServices = () => {
 											className="w-5 h-5"
 											src={Location}
 											alt="message icon"
+											loading="lazy"
 										/>
 									</span>
 									KM.3 Harbour Road Davo Plaza, By Njinna Hotel
@@ -85,6 +86,7 @@ const FooterServices = () => {
 										className="w-5 h-5"
 										src={Phone}
 										alt="message icon"
+										loading="lazy"
 									/>
 									+234 (0) 803 677 6697
 								</li>
@@ -93,6 +95,7 @@ const FooterServices = () => {
 										className="w-5 h-5"
 										src={Envelop}
 										alt="message icon"
+										loading="lazy"
 									/>
 									<a href="mailto:phizek4life@gmail.com">
 										phizek4life@gmail.com

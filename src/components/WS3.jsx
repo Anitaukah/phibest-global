@@ -21,16 +21,36 @@ const WS3 = () => {
 				</p>
 				<div className="flex flex-col md:flex-row items-center gap-8">
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Work1} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Work1}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Work2} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Work2}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Work3} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Work3}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Work4} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Work4}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 				</div>
 			</div>

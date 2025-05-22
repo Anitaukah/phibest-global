@@ -4,6 +4,7 @@ import React from "react";
 import Image50 from "/Images/image (50).png";
 import Image56 from "/Images/image (56).png";
 import Image48 from "/Images/image (48).png";
+import Img2 from "/Images/image-2[1].png";
 
 const WS1 = () => {
 	return (
@@ -24,16 +25,16 @@ const WS1 = () => {
 				</p>
 				<div className="flex flex-col md:flex-row gap-8 items-center md:justify-between">
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image50} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Image50} alt="" loading="lazy" />
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image50} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Img2} alt="" loading="lazy" />
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image56} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Image56} alt="" loading="lazy"/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image48} alt="" />
+						<img className="h-52 w-72 rounded-lg" src={Image48} alt="" loading="lazy" />
 					</div>
 				</div>
 			</div>

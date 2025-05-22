@@ -34,16 +34,19 @@ const Services = () => {
 						className="w-80 h-64 md:h-52 md:w-72 rounded-lg shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]"
 						src={Image7}
 						alt=""
+						loading="lazy"
 					/>
 					<img
 						className="w-80 h-64 md:h-52 md:w-72 rounded-lg shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]"
 						src={Image9}
 						alt=""
+						loading="lazy"
 					/>
 					<img
 						className="w-80 h-64 md:h-52 md:w-72 rounded-lg shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b]"
 						src={Image8}
 						alt=""
+						loading="lazy"
 					/>
 				</div>
 			</div>
@@ -58,6 +61,7 @@ const Services = () => {
 							className="w-80 h-64 md:h-52 md:w-72 rounded-t-lg"
 							src={Image12}
 							alt=""
+							loading="lazy"
 						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white text-sm">
 							Visit and check by Professional Team
@@ -68,6 +72,7 @@ const Services = () => {
 							className="w-80 h-64 md:h-52 md:w-72 rounded-t-lg"
 							src={Image10}
 							alt=""
+							loading="lazy"
 						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white text-sm">
 							Propose an Optimum Maintenance Plan
@@ -78,6 +83,7 @@ const Services = () => {
 							className="w-80 h-64 md:h-52 md:w-72 "
 							src={Image11}
 							alt=""
+							loading="lazy"
 						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white text-sm">
 							Maintenance

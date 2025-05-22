@@ -12,7 +12,7 @@ import { IoClose } from "react-icons/io5";
 // import Open from "../assets/Images/bars-solid.svg";
 // import Close from "../assets/Images/circle-xmark-regular.svg";
 
-const Navbar = () => {
+const NavbarService = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	const toggleMenu = () => {
 		setIsOpen(!isOpen);
@@ -30,7 +30,12 @@ const Navbar = () => {
 				<div className="md:m-auto md:max-w-[920px] ">
 					<ul className="flex justify-between text-white py-4 text-sm ">
 						<li className=" flex items-center">
-							<img className="w-6 h-7" src={Phone} alt="message icon" loading="lazy" />
+							<img
+								className="w-6 h-7"
+								src={Phone}
+								alt="message icon"
+								loading="lazy"
+							/>
 							+234 (0) 803 677 6697
 						</li>
 						<li className="hover:underline flex items-center">
@@ -97,8 +102,8 @@ const Navbar = () => {
 					)}
 
 					{isOpen ? (
-						<div className=" bg-white overflow-y-hidden fixed z-10 top-0  shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-screen min-h-52 pt-20 animate__animated animate__slideInDowntext-xl">
-							<ul className="flex items-center flex-col">
+						<div className=" bg-white overflow-y-hidden fixed z-10 top-0   shadow-[0_3px_6px_#00000029,0_3px_6px_#0000003b] w-screen min-h-44 pt-20 pb-6  animate__animated animate__slideInDown text-xl">
+							<ul className="flex items-center flex-col gap-4">
 								<li>
 									<a
 										href="/"
@@ -110,25 +115,9 @@ const Navbar = () => {
 								</li>
 								<li>
 									<a
-										href="#About"
-										className="hover:text-[#EB1E23] font-medium"
-									>
-										About
-									</a>
-								</li>
-								<li>
-									<a
-										href="#Policy"
-										className=" hover:text-[#EB1E23] font-medium"
-									>
-										Policy
-									</a>
-								</li>
-								<li>
-									<a
 										href="/Service"
 										target="_blank"
-										className=" hover:text-[#EB1E23] font-medium active:underline"
+										className="hover:text-[#EB1E23] font-medium active:underline"
 									>
 										Services
 									</a>
@@ -144,26 +133,10 @@ const Navbar = () => {
 							<li>
 								<a
 									href="/"
-									className="hover:text-[#EB1E23] font-medium"
+									className="hover:text-[#EB1E23] font-medium active:underline"
 									target="_blank"
 								>
 									Home
-								</a>
-							</li>
-							<li>
-								<a
-									href="#About"
-									className="ml-20 hover:text-[#EB1E23] font-medium"
-								>
-									About
-								</a>
-							</li>
-							<li>
-								<a
-									href="#Policy"
-									className="ml-20 hover:text-[#EB1E23] font-medium"
-								>
-									Policy
 								</a>
 							</li>
 							<li>
@@ -183,4 +156,4 @@ const Navbar = () => {
 	);
 };
 
-export default Navbar;
+export default NavbarService;

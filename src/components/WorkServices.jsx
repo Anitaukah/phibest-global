@@ -37,6 +37,7 @@ const WorkServices = () => {
 							className="h-52 w-72 md:h-[248px] md:w-72"
 							src={Image44}
 							alt=""
+							loading="lazy"
 						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white absolute bottom-[0rem] md:bottom-[-40px] w-full">
 							Solvent Cleaning
@@ -47,6 +48,7 @@ const WorkServices = () => {
 							className="h-[200px] w-72 rounded-t-lg"
 							src={IMG1}
 							alt=""
+							loading="lazy"
 						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white">
 							Thermal Cleaning
@@ -57,13 +59,19 @@ const WorkServices = () => {
 							className="h-[200px] w-72  rounded-t-lg"
 							src={Image45}
 							alt=""
+							loading="lazy"
 						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white">
 							Chemical Cleaning
 						</p>
 					</div>
 					<div className="h-52 w-72 ">
-						<img className="h-[200px] w-72 " src={Image41} alt="" />
+						<img
+							className="h-[200px] w-72 "
+							src={Image41}
+							alt=""
+							loading="lazy"
+						/>
 						<p className="bg-[#0000FA] text-center py-3 text-white">
 							Mechanical Cleaning
 						</p>
@@ -82,16 +90,36 @@ const WorkServices = () => {
 				</p>
 				<div className="flex flex-col md:flex-row items-center gap-10 md:gap-8">
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image46} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image46}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image51} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image51}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image47} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image47}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image48} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image48}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 				</div>
 			</div>
@@ -107,16 +135,36 @@ const WorkServices = () => {
 				</p>
 				<div className="flex flex-col md:flex-row items-center gap-8 mb-12">
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image49} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image49}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image52} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image52}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image53} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image53}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 					<div>
-						<img className="h-52 w-72 rounded-lg" src={Image55} alt="" />
+						<img
+							className="h-52 w-72 rounded-lg"
+							src={Image55}
+							alt=""
+							loading="lazy"
+						/>
 					</div>
 				</div>
 			</div>

@@ -51,6 +51,7 @@ const HeroServices = () => {
 					<img
 						src={images[currentImages].url}
 						alt="bg"
+						loading="lazy"
 						className="absolute top-0 left-0 w-full h-full object-cover -z-10"
 					/>
 					<div className="h-[80vh] flex flex-col justify-center items-center gap-10 text-center w-full max-w-6xl mx-auto">

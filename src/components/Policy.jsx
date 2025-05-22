@@ -26,7 +26,7 @@ const Policy = () => {
 				<div className="flex flex-col md:flex-row gap-8 mt-6 ">
 					<div className="bg-[#272626] text-white rounded-lg pb-8 ">
 						<div className="flex justify-center mt-4">
-							<img className="w-9 h-10" src={Vector} alt="" />
+							<img className="w-9 h-10" src={Vector} alt="" loading="lazy" />
 						</div>
 						<h2 className="mx-5 my-4 text-center font-bold text-xl">
 							Health Policy
@@ -52,7 +52,7 @@ const Policy = () => {
 					</div>
 					<div className="bg-[#272626] text-white rounded-lg pb-8">
 						<div className="flex justify-center mt-4">
-							<img className="w-9 h-10" src={Vector1} alt="" />
+							<img className="w-9 h-10" src={Vector1} alt="" loading="lazy" />
 						</div>
 						<h2 className="mx-5 my-4 text-center font-bold text-xl">
 							Environmental Policy
@@ -80,7 +80,7 @@ const Policy = () => {
 					</div>
 					<div className="bg-[#272626] text-white rounded-lg pb-8">
 						<div className="flex justify-center mt-4">
-							<img className="w-9 h-10" src={Vector2} alt="" />
+							<img className="w-9 h-10" src={Vector2} alt="" loading="lazy" />
 						</div>
 						<h2 className="mx-5 my-4 text-center font-bold text-xl">
 							Safety Policy
